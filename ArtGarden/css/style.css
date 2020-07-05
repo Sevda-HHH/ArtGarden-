@@ -1,0 +1,542 @@
+@media screen and (min-width: 1200px) {
+    .container-fluid {
+        height: 853px !important;
+    }
+    .container {
+        margin-top: 10px !important;
+        width: 1640px !important;
+        height: 853px !important;
+    }
+    aside .asideSectioht {
+        width: 1640px !important;
+        height: 853px !important;
+    }
+    #map {
+        height: 853px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1250px;
+        margin: 1.75rem auto;
+    }
+}
+
+html {
+    scroll-behavior: unset;
+}
+
+section {
+    overflow: hidden;
+}
+
+section .container {
+    position: relative;
+}
+
+body {
+    mix-blend-mode: hard-light;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* section .container {
+    padding-bottom: 250px !important;
+} */
+
+
+/* ASIDE START  */
+
+footer ul {
+    padding-top: 60px;
+    list-style: none !important;
+}
+
+footer ul li {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+}
+
+footer ul li h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+footer h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+aside {
+    float: right;
+    padding-bottom: 150px;
+    padding-right: 50px;
+}
+
+.asideP {
+    position: absolute;
+    height: 376.5px;
+    padding-top: 140px;
+    margin-left: 54px;
+    top: 0%;
+    right: 0%;
+}
+
+.asideP p {
+    font-family: Body Grotesque Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    color: #ffffff;
+    transform: rotate(270deg);
+}
+
+.asideP a {
+    text-decoration: none !important;
+}
+
+.asideNav .nactive li {
+    padding-left: 2px;
+}
+
+.asideNav ul p {
+    font-weight: 500;
+    font-size: 9px !important;
+    color: #F0C443 !important
+}
+
+.asideNav ul .active .fa-circle {
+    font-weight: 500;
+    font-size: 8px !important;
+    color: #F0C443 !important;
+}
+
+.asideNav .active a {
+    margin-top: 4px;
+    text-decoration: none;
+    display: flex;
+}
+
+.asideNav .nactive a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+.asideNav .active i {
+    padding-top: 3px;
+    margin-left: 6px;
+}
+
+.asideNav .nactive i {
+    padding-top: 5px !important;
+    margin-left: 6px !important;
+}
+
+.asideNav .active a p {
+    margin-bottom: 2px;
+}
+
+.artGarden {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.xoyskii {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.shop {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.bizeQoshul {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.emalatxana {
+    position: absolute;
+    margin-bottom: 2px;
+    text-transform: uppercase !important;
+    display: none;
+}
+
+.asideNav ul li a .fa-circle {
+    font-weight: 600;
+    position: relative;
+    color: grey;
+    font-size: 8px;
+}
+
+.asideNav ul li a .fa-circle:hover {
+    color: #F0C443 !important;
+}
+
+.asideNav ul {
+    height: 450px;
+    list-style: none;
+    padding-top: 210px !important;
+    padding-bottom: 50px !important;
+}
+
+.asideNav .nactive div {
+    width: 55px;
+}
+
+
+/* ASIDE END  */
+
+#emalatxanaPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#xoyskiPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#bizeQoshulPage img {
+    height: 80%;
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+#artGardenPage img {
+    height: 80%;
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+#shopPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#bizeQoshulPage .sectionHeading {
+    position: absolute;
+    left: 65px;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#bizeQoshulPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#artGardenPage .sectionHeading {
+    position: absolute;
+    left: 65px;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#artGardenPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#shopPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#bizeQoshulPage .artDes {
+    position: absolute;
+    width: 525px;
+    height: 546px;
+    left: 65px;
+    top: 254px;
+}
+
+#artGardenPage .artDes {
+    position: absolute;
+    width: 525px;
+    height: 546px;
+    left: 65px;
+    top: 254px;
+}
+
+#shopPage .sectionHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#shopPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#xoyskiPage .sectionHeading {
+    position: absolute;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#emalatxanaPage .sectionHeading {
+    position: absolute;
+    top: 80px;
+    right: 455px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#emalatxanaPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#xoyskiPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#map {
+    background-image: url('img/Desert.jpg') !important;
+}
+
+p {
+    color: white;
+}
+
+
+/* FOOTER START */
+
+#feedbackForm form {
+    z-index: 11;
+    position: absolute;
+    width: 495px;
+    height: 580px;
+    left: 802px;
+    top: 5088px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: white;
+}
+
+#feedbackForm input {
+    outline: none !important;
+    border: none !important;
+}
+
+#feedbackForm h1 {
+    text-transform: uppercase;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15%;
+    align-items: center !important;
+    color: #4F4336;
+    line-height: 100px;
+    padding-top: 3%;
+}
+
+#feedbackForm label {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    align-self: flex-start;
+    font-weight: bold;
+    padding-right: 35%;
+    font-size: 14px;
+    color: rgba(79, 67, 54, 0.5);
+    text-transform: capitalize;
+}
+
+#feedbackForm .form-group {
+    margin-right: 15%;
+    margin-bottom: 47px;
+    margin-left: 15%;
+    border-bottom: 1px solid rgba(79, 67, 54, 0.5) !important;
+}
+
+
+/* FOOOTER END  */
+
+.modal-body {
+    padding-left: 90px;
+    padding-right: 136px;
+    text-align: start;
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* width: 110%; */
+    /* width: 1px; */
+    height: 660px;
+    pointer-events: auto;
+    background: #FF5A3C;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0;
+    outline: 0;
+}
+
+.modal-header {
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: none !important;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-start;
+    padding: .75rem;
+    border-top: none !important;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+.modalClosee p {
+    margin-top: 50px;
+    margin-right: 78px;
+    font-family: Body Grotesque Fit Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+
+}
+.modalClosee a {
+    text-decoration: none !important;
+}
+.modal-footer {
+    margin: 2rem;
+}
+
+/* ==================================  XOYSKI KAFE START ================================== */
+header button:focus {
+    outline-color: white !important;
+}
+#haqqimizdaPage {
+    padding-top: 150px;
+}
+#haqqimizdaPage .headingStart {
+    display: flex;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    color: #4F4336;
+    align-items: center;
+    text-transform: uppercase
+}
+#haqqimizdaPage p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #4F4336;
+}
+#haqqimizdaPage img {}
+
+/* ================================== XOYSKI KAFE END  ====================================== */
