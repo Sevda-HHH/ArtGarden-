@@ -14,6 +14,9 @@
     #map {
         height: 853px !important;
     }
+    footer .container-fluid {
+        height: 750px !important;
+    }
 }
 
 @media (min-width: 576px) {
@@ -49,6 +52,8 @@ body {
 
 /* ASIDE START  */
 
+
+/* 
 footer ul {
     padding-top: 60px;
     list-style: none !important;
@@ -62,8 +67,12 @@ footer ul li {
     font-size: 16px;
     line-height: 20px;
     /* or 125% */
-}
 
+
+/* } */
+
+
+/* 
 footer ul li h1 {
     font-family: Body Grotesque Large Trial;
     font-style: normal;
@@ -80,9 +89,9 @@ footer h1 {
     font-weight: bold;
     line-height: 100px;
     text-transform: uppercase;
-}
+} */
 
-aside {
+*/ aside {
     float: right;
     padding-bottom: 150px;
     padding-right: 50px;
@@ -502,22 +511,25 @@ p {
     transform: rotate(-90deg);
 }
 
-
-}
 .modalClosee a {
     text-decoration: none !important;
 }
+
 .modal-footer {
     margin: 2rem;
 }
 
+
 /* ==================================  XOYSKI KAFE START ================================== */
+
 header button:focus {
     outline-color: white !important;
 }
+
 #haqqimizdaPage {
     padding-top: 150px;
 }
+
 #haqqimizdaPage .headingStart {
     display: flex;
     font-family: Body Grotesque Large Trial;
@@ -529,6 +541,7 @@ header button:focus {
     align-items: center;
     text-transform: uppercase
 }
+
 #haqqimizdaPage p {
     font-family: Montserrat;
     font-style: italic;
@@ -537,6 +550,198 @@ header button:focus {
     line-height: 35px;
     color: #4F4336;
 }
-#haqqimizdaPage img {}
+
+#haqqimizdaPage img {
+    width: 100%;
+}
+
+#haqqimizdaPage .quoteStart {
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    /* or 133% */
+    color: #F7F7F7;
+}
+
+#albomlar .head {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    text-transform: uppercase !important;
+    color: #4F4336;
+}
+
+
+/* .carousel-control-prev {
+    position: initial !important;
+} */
+
+#albomlar p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albomlar h3 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+.scnd {
+    height: 79%;
+}
+
+#albomlar img {
+    border-radius: 8px;
+}
+
+.yazi {
+    padding-left: 100px;
+    width: 10%;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    transform: rotate(90deg);
+}
+
+#shekiller img {
+    border-radius: 8px;
+}
+
+#shekiller h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+#shekiller h3 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #4F4336;
+}
+
+#shekiller p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #FF5A3C;
+}
+
+#shekiller .pages {
+    padding-bottom: 10%;
+    /* padding-left: 5%; */
+    padding-top: 10%;
+}
+
+#shekiller .pages i {
+    font-size: 13px;
+    padding-right: 5%;
+    color: #EDEDED;
+    cursor: pointer;
+}
+
+#shekiller .pages :hover {
+    color: black;
+}
+
+#shekiller .pages .active {
+    color: black !important;
+}
+
+#shekiller .pageBtn {
+    padding-right: 13% !important;
+}
+
+#shekiller .smallPic {
+    cursor: pointer;
+}
+
+footer {
+    background: #2B2B2B;
+}
+
+footer .hello {
+    height: 565px !important;
+    width: 100%;
+    background-image: url("../img/mapXoyski.JPG");
+}
+
+footer ul {
+    padding-left: 0;
+    padding-top: 60px;
+    list-style: none !important;
+}
+
+footer ul li {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer ul li h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+footer h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.icons8-facebook {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDMgQyAxMi44NjE1NjIgMyAzIDEyLjg2MTU2MiAzIDI1IEMgMyAzNi4wMTkxMzUgMTEuMTI3NTMzIDQ1LjEzODM1NSAyMS43MTI4OTEgNDYuNzI4NTE2IEwgMjIuODYxMzI4IDQ2LjkwMjM0NCBMIDIyLjg2MTMyOCAyOS41NjY0MDYgTCAxNy42NjQwNjIgMjkuNTY2NDA2IEwgMTcuNjY0MDYyIDI2LjA0Njg3NSBMIDIyLjg2MTMyOCAyNi4wNDY4NzUgTCAyMi44NjEzMjggMjEuMzczMDQ3IEMgMjIuODYxMzI4IDE4LjQ5NDk2NSAyMy41NTE5NzMgMTYuNTk5NDE3IDI0LjY5NTMxMiAxNS40MTAxNTYgQyAyNS44Mzg2NTIgMTQuMjIwODk2IDI3LjUyODAwNCAxMy42MjEwOTQgMjkuODc4OTA2IDEzLjYyMTA5NCBDIDMxLjc1ODcxNCAxMy42MjEwOTQgMzIuNDkwMDIyIDEzLjczNDk5MyAzMy4xODU1NDcgMTMuODIwMzEyIEwgMzMuMTg1NTQ3IDE2LjcwMTE3MiBMIDMwLjczODI4MSAxNi43MDExNzIgQyAyOS4zNDk2OTcgMTYuNzAxMTcyIDI4LjIxMDQ0OSAxNy40NzU5MDMgMjcuNjE5MTQxIDE4LjUwNzgxMiBDIDI3LjAyNzgzMiAxOS41Mzk3MjQgMjYuODQzNzUgMjAuNzcxODE2IDI2Ljg0Mzc1IDIyLjAyNzM0NCBMIDI2Ljg0Mzc1IDI2LjA0NDkyMiBMIDMyLjk2Njc5NyAyNi4wNDQ5MjIgTCAzMi40MjE4NzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgNDYuOTI5Njg4IEwgMjcuOTc4NTE2IDQ2Ljc3NTM5MSBDIDM4LjcxNDM0IDQ1LjMxOTM2NiA0NyAzNi4xMjY4NDUgNDcgMjUgQyA0NyAxMi44NjE1NjIgMzcuMTM4NDM4IDMgMjUgMyB6IE0gMjUgNSBDIDM2LjA1NzU2MiA1IDQ1IDEzLjk0MjQzOCA0NSAyNSBDIDQ1IDM0LjcyOTc5MSAzOC4wMzU3OTkgNDIuNzMxNzk2IDI4Ljg0Mzc1IDQ0LjUzMzIwMyBMIDI4Ljg0Mzc1IDMxLjU2NDQ1MyBMIDM0LjEzNjcxOSAzMS41NjQ0NTMgTCAzNS4yOTg4MjggMjQuMDQ0OTIyIEwgMjguODQzNzUgMjQuMDQ0OTIyIEwgMjguODQzNzUgMjIuMDI3MzQ0IEMgMjguODQzNzUgMjAuOTg5ODcxIDI5LjAzMzU3NCAyMC4wNjAyOTMgMjkuMzUzNTE2IDE5LjUwMTk1MyBDIDI5LjY3MzQ1NyAxOC45NDM2MTQgMjkuOTgxODY1IDE4LjcwMTE3MiAzMC43MzgyODEgMTguNzAxMTcyIEwgMzUuMTg1NTQ3IDE4LjcwMTE3MiBMIDM1LjE4NTU0NyAxMi4wMDk3NjYgTCAzNC4zMTgzNTkgMTEuODkyNTc4IEMgMzMuNzE4NTY3IDExLjgxMTQxOCAzMi4zNDkxOTcgMTEuNjIxMDk0IDI5Ljg3ODkwNiAxMS42MjEwOTQgQyAyNy4xNzU4MDggMTEuNjIxMDk0IDI0Ljg1NTU2NyAxMi4zNTc0NDggMjMuMjUzOTA2IDE0LjAyMzQzOCBDIDIxLjY1MjI0NiAxNS42ODk0MjYgMjAuODYxMzI4IDE4LjE3MDEyOCAyMC44NjEzMjggMjEuMzczMDQ3IEwgMjAuODYxMzI4IDI0LjA0Njg3NSBMIDE1LjY2NDA2MiAyNC4wNDY4NzUgTCAxNS42NjQwNjIgMzEuNTY2NDA2IEwgMjAuODYxMzI4IDMxLjU2NjQwNiBMIDIwLjg2MTMyOCA0NC40NzA3MDMgQyAxMS44MTY5OTUgNDIuNTU0ODEzIDUgMzQuNjI0NDQ3IDUgMjUgQyA1IDEzLjk0MjQzOCAxMy45NDI0MzggNSAyNSA1IHoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+    background-size: 100%;
+}
+
 
 /* ================================== XOYSKI KAFE END  ====================================== */
+
+
+/* =============================FOOTR START =============================================== */
+
+.webLinks li {
+    margin-right: 10px;
+}
+
+
+/* =============================FOOTR END  =============================================== */
