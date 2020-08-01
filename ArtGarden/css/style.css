@@ -1,3 +1,95 @@
+/* LOADING SCREEN START ------- */
+
+.loading {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: backGround 5s ease infinite;
+    animation: backGround 5s ease infinite;
+}
+
+.loading .loadingWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.loading .loadingWrapper #loading {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    border-top: 3px solid #ffcb23;
+    border-radius: 50%;
+    -webkit-animation: round 2s linear infinite;
+    animation: round 2s linear infinite;
+}
+
+.loading .loadingWrapper h1 {
+    color: #555555;
+    position: relative;
+    margin: auto;
+    top: 50%;
+}
+
+@-webkit-keyframes round {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes round {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes backGround {
+    0% {
+        background-color: #222222;
+    }
+    50% {
+        background-color: #555555;
+    }
+    75% {
+        background-color: #444444;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+
+@keyframes backGround {
+    0% {
+        background-color: #222222;
+    }
+    50% {
+        background-color: #555555;
+    }
+    75% {
+        background-color: #444444;
+    }
+    100% {
+        background-color: #111111;
+    }
+}
+
+
+/* LOADING SCREEEN END ===== */
+
 @media screen and (min-width: 1200px) {
     .container-fluid {
         height: 853px !important;
@@ -16,6 +108,27 @@
     }
     footer .container-fluid {
         height: 750px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #albomlar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .yazi {
+        display: none;
+    }
+    #haqqimizdaPage .headingStart {
+        font-size: 56px !important;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #albomlarr {
+        display: none;
     }
 }
 
@@ -575,12 +688,31 @@ header button:focus {
     color: #4F4336;
 }
 
+#albomlarr .head {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    text-transform: uppercase !important;
+    color: #4F4336;
+}
+
 
 /* .carousel-control-prev {
     position: initial !important;
 } */
 
 #albomlar p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albomlarr p {
     font-family: Montserrat;
     font-style: italic;
     font-weight: normal;
@@ -598,11 +730,24 @@ header button:focus {
     color: #4F4336;
 }
 
+#albomlarr h3 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
 .scnd {
     height: 79%;
 }
 
 #albomlar img {
+    border-radius: 8px;
+}
+
+#albomlarr img {
     border-radius: 8px;
 }
 
@@ -741,6 +886,43 @@ footer h1 {
 
 .webLinks li {
     margin-right: 10px;
+}
+
+.webLinks li div {
+    width: 32px;
+    margin-left: 3px;
+    height: 32px;
+    border-radius: 100000px;
+    background-color: white;
+}
+
+.webLinks ul {
+    align-self: flex-end;
+    display: flex;
+}
+
+.webLinks i {
+    position: absolute;
+    top: 23%;
+    font-size: 20px;
+    left: 22%;
+    color: #2B2B2B;
+}
+
+.contactInfo ul li b {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .contactInfo ul {
+    align-self: flex-end;
 }
 
 
