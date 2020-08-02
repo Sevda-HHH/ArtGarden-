@@ -1,95 +1,3 @@
-/* LOADING SCREEN START ------- */
-
-.loading {
-    position: fixed;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    -webkit-animation: backGround 5s ease infinite;
-    animation: backGround 5s ease infinite;
-}
-
-.loading .loadingWrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.loading .loadingWrapper #loading {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    border: transparent;
-    border-top: 3px solid #ffcb23;
-    border-radius: 50%;
-    -webkit-animation: round 2s linear infinite;
-    animation: round 2s linear infinite;
-}
-
-.loading .loadingWrapper h1 {
-    color: #555555;
-    position: relative;
-    margin: auto;
-    top: 50%;
-}
-
-@-webkit-keyframes round {
-    from {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes round {
-    from {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes backGround {
-    0% {
-        background-color: #222222;
-    }
-    50% {
-        background-color: #555555;
-    }
-    75% {
-        background-color: #444444;
-    }
-    100% {
-        background-color: #111111;
-    }
-}
-
-@keyframes backGround {
-    0% {
-        background-color: #222222;
-    }
-    50% {
-        background-color: #555555;
-    }
-    75% {
-        background-color: #444444;
-    }
-    100% {
-        background-color: #111111;
-    }
-}
-
-
-/* LOADING SCREEEN END ===== */
-
 @media screen and (min-width: 1200px) {
     .container-fluid {
         height: 853px !important;
@@ -115,6 +23,13 @@
     #albomlar {
         display: none;
     }
+    .competitionImage img {
+        height: 400px !important;
+    }
+    .competitionText {
+        left: 49% !important;
+        height: 400px !important;
+    }
 }
 
 @media screen and (max-width: 630px) {
@@ -122,7 +37,15 @@
         display: none;
     }
     #haqqimizdaPage .headingStart {
-        font-size: 56px !important;
+        font-size: 50px !important;
+    }
+    .competitionImage img {
+        height: 300px !important;
+    }
+    .competitionText {
+        left: 0 !important;
+        top: 0 !important;
+        position: relative !important;
     }
 }
 
@@ -144,6 +67,7 @@ html {
 }
 
 section {
+    margin-top: 80px;
     overflow: hidden;
 }
 
@@ -828,6 +752,7 @@ header button:focus {
 }
 
 footer {
+    margin-top: 100px;
     background: #2B2B2B;
 }
 
@@ -927,3 +852,42 @@ footer .contactInfo ul {
 
 
 /* =============================FOOTR END  =============================================== */
+
+.competitionText h3 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    /* or 357% */
+    text-transform: uppercase;
+    color: #4F4336;
+}
+
+.competitionText p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #4F4336;
+}
+
+.competitionImage img {
+    height: 478px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.competitionText {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    height: 473px;
+    position: absolute;
+    /* background: beige; */
+    z-index: 100;
+    top: 9%;
+    left: 56%;
+}
