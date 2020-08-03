@@ -24,7 +24,37 @@ $(document).ready(function() {
         })
     })
 
+    $(".competitionImage img").each(function() {
+        hello = $(this).attr("class");
+        if (hello == "active") {
+            $(this).show()
+        } else {
+            $(this).hide()
+        }
+    })
+    $(".competitionText").each(function() {
+        hello = $(this).attr("class");
+        if (hello == "col-lg-5 col-sm-6 competitionText active") {
+            $(this).show()
+            alo = $(this).next()
+            halo = $(this).prev().prev()
+            console.log(alo.length)
 
+            console.log(halo.length)
+
+        } else {
+            $(this).hide()
+        }
+    })
+    $(" #turnRight").click(function() {
+        $(".competitionText").each(function() {
+            hello = $(this).attr("class");
+            if (hello == "col-lg-5 col-sm-6 competitionText active") {
+                console.log("hello")
+            }
+            return;
+        })
+    })
 
 });
 // $(document).ready(function() {
