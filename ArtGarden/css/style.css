@@ -900,6 +900,11 @@ footer .contactInfo ul {
     height: 50px;
 }
 
+.sliderTurn:hover {
+    border: 1px solid #a98f43 !important;
+    transition-duration: 2s;
+}
+
 .sliderTurn i {
     position: absolute;
     font-size: 30px;
@@ -907,11 +912,31 @@ footer .contactInfo ul {
     top: 21%;
 }
 
-#turnRight {
+.turnRight {
+    cursor: pointer;
     color: #4F4336;
 }
 
-#turnLeft {
+.turnRight:hover {
+    color: #a98f43 !important;
+    transition-duration: color 1.5s;
+}
+
+
+/* .sliderTurn :hover {
+    position: relative;
+    border-radius: 10000px;
+    width: 50px;
+    height: 50px;
+} */
+
+.turnLeft:hover {
+    color: #a98f43 !important;
+    transition-duration: color 1.5s;
+}
+
+.turnLeft {
+    cursor: pointer;
     margin-right: 6px;
     color: #4F4336;
 }
