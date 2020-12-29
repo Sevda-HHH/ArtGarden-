@@ -1,1219 +1,2257 @@
-            @media screen and (min-width: 1200px) {
-                .container-fluid {
-                    height: 853px !important;
-                }
-                .container {
-                    margin-top: 10px !important;
-                    width: 1640px !important;
-                    height: 853px !important;
-                }
-                aside .asideSectioht {
-                    width: 1640px !important;
-                    height: 853px !important;
-                }
-                #map {
-                    height: 853px !important;
-                }
-                footer .container-fluid {
-                    height: 750px !important;
-                }
-                #artProgramm {
-                    display: none;
-                }
-            }
-            
-            @media screen and (max-width: 800px) {
-                #albomlar {
-                    display: none;
-                }
-                .competitionImage img {
-                    height: 400px !important;
-                }
-                .competitionText {
-                    left: 49% !important;
-                    height: 400px !important;
-                }
-                #artProgram {
-                    display: none;
-                }
-                #artProgramm {
-                    display: block !important;
-                }
-            }
-            
-            @media screen and (max-width: 630px) {
-                footer .feedbackMain {
-                    position: absolute;
-                    top: 48% !important;
-                    left: 41% !important;
-                    z-index: 1 !important;
-                    width: 301px !important;
-                    height: 400px !important;
-                    background: #FFFFFF;
-                    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-                    border-radius: 12px;
-                }
-                .feedbackMain form h3 {
-                    font-size: 20px !important;
-                }
-                .feedbackMain .form-group {
-                    margin-top: 10px !important;
-                }
-                .feedbackMain .form-control {
-                    height: 0.74rem !important;
-                }
-                .feedbackMain .form-group input {}
-                .feedbackMain .uploadSubmit {
-                    margin-top: 0 !important;
-                }
-                .feedbackMain .image-upload {}
-                .feedbackMain form .image-upload img {
-                    width: 94px !important;
-                }
-                .feedbackMain #file-input {}
-                .feedbackMain .submitFeedback {}
-                .yazi {
-                    display: none;
-                }
-                #haqqimizdaPage .headingStart {
-                    font-size: 50px !important;
-                }
-                .competitionImage img {
-                    height: 300px !important;
-                }
-                .competitionText {
-                    left: 0 !important;
-                    top: 0 !important;
-                    position: relative !important;
-                }
-                #albomlarr {
-                    height: 740px !important;
-                }
-                #artProgramm .programYazi {
-                    display: none !important;
-                }
-                #artProgramm .title {
-                    padding-left: 10px !important;
-                    padding-right: 10px !important;
-                }
-                #competitions {
-                    height: 845px !important;
-                }
-                #albomlarr {
-                    padding: 0px 15px 0px 15px !important;
-                }
-            }
-            
-            @media screen and (max-width: 1025px) {
-                #artProgram .imgFirst {
-                    margin-top: 102px !important;
-                    width: 292px !important;
-                    height: 315px !important;
-                }
-                #artProgram .imgSecond {
-                    margin-top: 10px !important;
-                    width: 325px !important;
-                    height: 395px !important;
-                }
-                #artProgram .imgThird {
-                    width: 250px !important;
-                    height: 168.74px !important;
-                }
-                #artProgram .imgFourth {
-                    margin-right: 50px !important;
-                    padding-right: 4px !important;
-                    width: 287px !important;
-                    height: 209.17px !important;
-                    margin-left: -7px !important;
-                }
-                #artProgram .imgLast {
-                    width: 360px !important;
-                    height: 269.67px !important;
-                }
-                #artProgram .lastPic {
-                    margin-left: -69px !important;
-                }
-                #artProgram .firstPic {
-                    margin-right: -50px !important;
-                    width: 20% !important;
-                }
-                #artProgram .title {
-                    max-width: 265px !important;
-                    max-height: 172px !important;
-                }
-                #artProgram .programYazi {
-                    display: none;
-                }
-                #artProgram .programContent {
-                    margin-left: 15px !important;
-                }
-                #artProgram .secondPart {
-                    margin-left: 15px !important;
-                }
-                #artProgramm {
-                    display: none;
-                }
-            }
-            
-            @media screen and (min-width: 801px) {
-                #albomlarr {
-                    display: none;
-                }
-            }
-            
-            @media (min-width: 576px) {
-                .modal-dialog {
-                    max-width: 1250px;
-                    margin: 1.75rem auto;
-                }
-            }
-            
-            html {
-                scroll-behavior: unset;
-            }
-            
-            section {
-                margin-top: 80px;
-                overflow: hidden;
-            }
-            
-            section .container {
-                position: relative;
-            }
-            
-            body {
-                mix-blend-mode: hard-light;
-                padding: 0 !important;
-                margin: 0 !important;
-            }
-            
-            */ aside {
-                float: right;
-                padding-bottom: 150px;
-                padding-right: 50px;
-            }
-            
-            .asideP {
-                position: absolute;
-                height: 376.5px;
-                padding-top: 140px;
-                margin-left: 54px;
-                top: 0%;
-                right: 0%;
-            }
-            
-            .asideP p {
-                font-family: Body Grotesque Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 100px;
-                color: #ffffff;
-                transform: rotate(270deg);
-            }
-            
-            .asideP a {
-                text-decoration: none !important;
-            }
-            
-            .asideNav .nactive li {
-                padding-left: 2px;
-            }
-            
-            .asideNav ul p {
-                font-weight: 500;
-                font-size: 9px !important;
-                color: #F0C443 !important
-            }
-            
-            .asideNav ul .active .fa-circle {
-                font-weight: 500;
-                font-size: 8px !important;
-                color: #F0C443 !important;
-            }
-            
-            .asideNav .active a {
-                margin-top: 4px;
-                text-decoration: none;
-                display: flex;
-            }
-            
-            .asideNav .nactive a {
-                display: flex;
-                text-decoration: none;
-                padding-top: 18px;
-            }
-            
-            .asideNav .active i {
-                padding-top: 3px;
-                margin-left: 6px;
-            }
-            
-            .asideNav .nactive i {
-                padding-top: 5px !important;
-                margin-left: 6px !important;
-            }
-            
-            .asideNav .active a p {
-                margin-bottom: 2px;
-            }
-            
-            .artGarden {
-                position: absolute;
-                margin-bottom: 2px;
-                display: none;
-                text-transform: uppercase !important;
-            }
-            
-            .xoyskii {
-                position: absolute;
-                margin-bottom: 2px;
-                display: none;
-                text-transform: uppercase !important;
-            }
-            
-            .shop {
-                position: absolute;
-                margin-bottom: 2px;
-                display: none;
-                text-transform: uppercase !important;
-            }
-            
-            .bizeQoshul {
-                position: absolute;
-                margin-bottom: 2px;
-                display: none;
-                text-transform: uppercase !important;
-            }
-            
-            .emalatxana {
-                position: absolute;
-                margin-bottom: 2px;
-                text-transform: uppercase !important;
-                display: none;
-            }
-            
-            .asideNav ul li a .fa-circle {
-                font-weight: 600;
-                position: relative;
-                color: grey;
-                font-size: 8px;
-            }
-            
-            .asideNav ul li a .fa-circle:hover {
-                color: #F0C443 !important;
-            }
-            
-            .asideNav ul {
-                height: 450px;
-                list-style: none;
-                padding-top: 210px !important;
-                padding-bottom: 50px !important;
-            }
-            
-            .asideNav .nactive div {
-                width: 55px;
-            }
-            /* ASIDE END  */
-            
-            #emalatxanaPage img {
-                width: 537.21px;
-                height: 640.03px;
-                border-radius: 10px;
-            }
-            
-            #xoyskiPage img {
-                width: 537.21px;
-                height: 640.03px;
-                border-radius: 10px;
-            }
-            
-            #bizeQoshulPage img {
-                height: 80%;
-                width: 100% !important;
-                border-radius: 10px;
-            }
-            
-            #artGardenPage img {
-                height: 80%;
-                width: 100% !important;
-                border-radius: 10px;
-            }
-            
-            #shopPage img {
-                width: 537.21px;
-                height: 640.03px;
-                border-radius: 10px;
-            }
-            
-            #bizeQoshulPage .sectionHeading {
-                position: absolute;
-                left: 65px;
-                top: 0;
-                right: 330px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 80px;
-                z-index: 2;
-                width: 388px;
-                height: 186px;
-                line-height: 100px;
-                color: #FFFFFF;
-                text-transform: uppercase !important;
-            }
-            
-            #bizeQoshulPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #artGardenPage .sectionHeading {
-                position: absolute;
-                left: 65px;
-                top: 0;
-                right: 330px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 80px;
-                z-index: 2;
-                width: 388px;
-                height: 186px;
-                line-height: 100px;
-                color: #FFFFFF;
-                text-transform: uppercase !important;
-            }
-            
-            #artGardenPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #shopPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #bizeQoshulPage .artDes {
-                position: absolute;
-                width: 525px;
-                height: 546px;
-                left: 65px;
-                top: 254px;
-            }
-            
-            #artGardenPage .artDes {
-                position: absolute;
-                width: 525px;
-                height: 546px;
-                left: 65px;
-                top: 254px;
-            }
-            
-            #shopPage .sectionHeading {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 80px;
-                z-index: 2;
-                width: 388px;
-                height: 186px;
-                line-height: 100px;
-                color: #FFFFFF;
-                text-transform: uppercase !important;
-            }
-            
-            #shopPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #xoyskiPage .sectionHeading {
-                position: absolute;
-                top: 0;
-                right: 330px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 80px;
-                z-index: 2;
-                width: 388px;
-                height: 186px;
-                line-height: 100px;
-                color: #FFFFFF;
-                text-transform: uppercase !important;
-            }
-            
-            #emalatxanaPage .sectionHeading {
-                position: absolute;
-                top: 80px;
-                right: 455px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 80px;
-                z-index: 2;
-                width: 388px;
-                height: 186px;
-                line-height: 100px;
-                color: #FFFFFF;
-                text-transform: uppercase !important;
-            }
-            
-            #emalatxanaPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #xoyskiPage .sectionHeading h1 {
-                color: white;
-                font-family: Body Grotesque Large Trial;
-                font-size: 85px !important;
-            }
-            
-            #map {
-                background-image: url('img/Desert.jpg') !important;
-            }
-            
-            p {
-                color: white;
-            }
-            /* FOOTER START */
-            
-            #feedbackForm form {
-                z-index: 11;
-                position: absolute;
-                width: 495px;
-                height: 580px;
-                left: 802px;
-                top: 5088px;
-                background: #FFFFFF;
-                box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-                border-radius: 12px;
-                background-color: white;
-            }
-            
-            #feedbackForm input {
-                outline: none !important;
-                border: none !important;
-            }
-            
-            #feedbackForm h1 {
-                text-transform: uppercase;
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                padding-left: 15%;
-                align-items: center !important;
-                color: #4F4336;
-                line-height: 100px;
-                padding-top: 3%;
-            }
-            
-            #feedbackForm label {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                align-self: flex-start;
-                font-weight: bold;
-                padding-right: 35%;
-                font-size: 14px;
-                color: rgba(79, 67, 54, 0.5);
-                text-transform: capitalize;
-            }
-            
-            #feedbackForm .form-group {
-                margin-right: 15%;
-                margin-bottom: 47px;
-                margin-left: 15%;
-                border-bottom: 1px solid rgba(79, 67, 54, 0.5) !important;
-            }
-            /* FOOOTER END  */
-            
-            .modal-body {
-                padding-left: 90px;
-                padding-right: 136px;
-                text-align: start;
-                font-family: Cormorant;
-                font-style: italic;
-                font-weight: 600;
-                font-size: 48px;
-                line-height: 50px;
-                color: #FFFFFF;
-            }
-            
-            .modal-content {
-                position: relative;
-                display: -ms-flexbox;
-                display: flex;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                /* width: 110%; */
-                /* width: 1px; */
-                height: 660px;
-                pointer-events: auto;
-                background: #FF5A3C;
-                /* background-color: #fff; */
-                background-clip: padding-box;
-                border: 1px solid rgba(0, 0, 0, .2);
-                border-radius: 0;
-                outline: 0;
-            }
-            
-            .modal-header {
-                display: flex;
-                -ms-flex-align: start;
-                align-items: flex-start;
-                -ms-flex-pack: justify;
-                justify-content: space-between;
-                padding: 1rem 1rem;
-                border-bottom: none !important;
-                border-top-left-radius: calc(.3rem - 1px);
-                border-top-right-radius: calc(.3rem - 1px);
-            }
-            
-            .modal-footer {
-                display: -ms-flexbox;
-                display: flex;
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-                -ms-flex-align: center;
-                align-items: center;
-                -ms-flex-pack: end;
-                justify-content: flex-start;
-                padding: .75rem;
-                border-top: none !important;
-                border-bottom-right-radius: calc(.3rem - 1px);
-                border-bottom-left-radius: calc(.3rem - 1px);
-            }
-            
-            .modalClosee p {
-                margin-top: 50px;
-                margin-right: 78px;
-                font-family: Body Grotesque Fit Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 100px;
-                text-transform: uppercase;
-                color: #FFFFFF;
-                transform: rotate(-90deg);
-            }
-            
-            .modalClosee a {
-                text-decoration: none !important;
-            }
-            
-            .modal-footer {
-                margin: 2rem;
-            }
-            /* ==================================  XOYSKI KAFE START ================================== */
-            
-            header button:focus {
-                outline-color: white !important;
-            }
-            
-            #haqqimizdaPage {
-                padding-top: 150px;
-            }
-            
-            #haqqimizdaPage .headingStart {
-                display: flex;
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 60px;
-                line-height: 100px;
-                color: #4F4336;
-                align-items: center;
-                text-transform: uppercase
-            }
-            
-            #haqqimizdaPage p {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 20px;
-                line-height: 35px;
-                color: #4F4336;
-            }
-            
-            #haqqimizdaPage img {
-                width: 100%;
-            }
-            
-            #haqqimizdaPage .quoteStart {
-                font-family: Cormorant;
-                font-style: italic;
-                font-weight: bold;
-                font-size: 60px;
-                line-height: 80px;
-                /* or 133% */
-                color: #F7F7F7;
-            }
-            
-            #albomlar .head {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 28px;
-                line-height: 100px;
-                text-transform: uppercase !important;
-                color: #4F4336;
-            }
-            
-            #albomlarr .head {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 28px;
-                line-height: 100px;
-                text-transform: uppercase !important;
-                color: #4F4336;
-            }
-            /* .carousel-control-prev {
-    position: initial !important;
-} */
-            
-            #albomlarr {
-                height: 1000px;
-            }
-            
-            #albomlar p {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 24px;
-                color: #4F4336;
-            }
-            
-            #albomlarr p {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 24px;
-                color: #4F4336;
-            }
-            
-            #albomlar h3 {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 24px;
-                color: #4F4336;
-            }
-            
-            #albomlarr h3 {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 24px;
-                color: #4F4336;
-            }
-            
-            .scnd {
-                height: 79%;
-            }
-            
-            #albomlar img {
-                border-radius: 8px;
-            }
-            
-            #albomlarr img {
-                border-radius: 8px;
-            }
-            
-            .yazi {
-                padding-left: 100px;
-                width: 10%;
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 60px;
-                line-height: 100px;
-                letter-spacing: 0.5em;
-                text-transform: uppercase;
-                color: #F7F7F7;
-                transform: rotate(90deg);
-            }
-            
-            .programYazi {
-                padding-top: 310px;
-                width: 10%;
-                font-style: normal;
-                font-size: 25px;
-                color: black;
-            }
-            
-            #shekiller img {
-                border-radius: 8px;
-            }
-            
-            #shekiller h1 {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 60px;
-                letter-spacing: 0.5em;
-                text-transform: uppercase;
-                color: #F7F7F7;
-            }
-            
-            #shekiller h3 {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 28px;
-                line-height: 80px;
-                text-transform: uppercase;
-                color: #4F4336;
-            }
-            
-            #shekiller p {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: 600;
-                font-size: 48px;
-                line-height: 24px;
-                color: #FF5A3C;
-            }
-            
-            #shekiller .pages {
-                padding-bottom: 10%;
-                /* padding-left: 5%; */
-                padding-top: 10%;
-            }
-            
-            #shekiller .pages i {
-                font-size: 13px;
-                padding-right: 5%;
-                color: #EDEDED;
-                cursor: pointer;
-            }
-            
-            #shekiller .pages :hover {
-                color: black;
-            }
-            
-            #shekiller .pages .active {
-                color: black !important;
-            }
-            
-            #shekiller .pageBtn {
-                padding-right: 13% !important;
-            }
-            
-            #shekiller .smallPic {
-                cursor: pointer;
-            }
-            
-            footer {
-                overflow: hidden;
-                position: relative;
-                margin-top: 100px;
-                background: #2B2B2B;
-            }
-            
-            footer .hello {
-                height: 565px !important;
-                width: 100%;
-                background-image: url("../img/mapXoyski.JPG");
-            }
-            
-            footer ul {
-                padding-left: 0;
-                padding-top: 60px;
-                list-style: none !important;
-            }
-            
-            footer ul li {
-                color: #FFFFFF;
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 20px;
-            }
-            
-            footer ul li h1 {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                color: #FFFFFF;
-                font-weight: bold;
-                line-height: 50px;
-                text-transform: uppercase;
-            }
-            
-            footer h1 {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                color: #FFFFFF;
-                font-weight: bold;
-                line-height: 100px;
-                text-transform: uppercase;
-            }
-            
-            .icons8-facebook {
-                display: inline-block;
-                width: 50px;
-                height: 50px;
-                background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDMgQyAxMi44NjE1NjIgMyAzIDEyLjg2MTU2MiAzIDI1IEMgMyAzNi4wMTkxMzUgMTEuMTI3NTMzIDQ1LjEzODM1NSAyMS43MTI4OTEgNDYuNzI4NTE2IEwgMjIuODYxMzI4IDQ2LjkwMjM0NCBMIDIyLjg2MTMyOCAyOS41NjY0MDYgTCAxNy42NjQwNjIgMjkuNTY2NDA2IEwgMTcuNjY0MDYyIDI2LjA0Njg3NSBMIDIyLjg2MTMyOCAyNi4wNDY4NzUgTCAyMi44NjEzMjggMjEuMzczMDQ3IEMgMjIuODYxMzI4IDE4LjQ5NDk2NSAyMy41NTE5NzMgMTYuNTk5NDE3IDI0LjY5NTMxMiAxNS40MTAxNTYgQyAyNS44Mzg2NTIgMTQuMjIwODk2IDI3LjUyODAwNCAxMy42MjEwOTQgMjkuODc4OTA2IDEzLjYyMTA5NCBDIDMxLjc1ODcxNCAxMy42MjEwOTQgMzIuNDkwMDIyIDEzLjczNDk5MyAzMy4xODU1NDcgMTMuODIwMzEyIEwgMzMuMTg1NTQ3IDE2LjcwMTE3MiBMIDMwLjczODI4MSAxNi43MDExNzIgQyAyOS4zNDk2OTcgMTYuNzAxMTcyIDI4LjIxMDQ0OSAxNy40NzU5MDMgMjcuNjE5MTQxIDE4LjUwNzgxMiBDIDI3LjAyNzgzMiAxOS41Mzk3MjQgMjYuODQzNzUgMjAuNzcxODE2IDI2Ljg0Mzc1IDIyLjAyNzM0NCBMIDI2Ljg0Mzc1IDI2LjA0NDkyMiBMIDMyLjk2Njc5NyAyNi4wNDQ5MjIgTCAzMi40MjE4NzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgNDYuOTI5Njg4IEwgMjcuOTc4NTE2IDQ2Ljc3NTM5MSBDIDM4LjcxNDM0IDQ1LjMxOTM2NiA0NyAzNi4xMjY4NDUgNDcgMjUgQyA0NyAxMi44NjE1NjIgMzcuMTM4NDM4IDMgMjUgMyB6IE0gMjUgNSBDIDM2LjA1NzU2MiA1IDQ1IDEzLjk0MjQzOCA0NSAyNSBDIDQ1IDM0LjcyOTc5MSAzOC4wMzU3OTkgNDIuNzMxNzk2IDI4Ljg0Mzc1IDQ0LjUzMzIwMyBMIDI4Ljg0Mzc1IDMxLjU2NDQ1MyBMIDM0LjEzNjcxOSAzMS41NjQ0NTMgTCAzNS4yOTg4MjggMjQuMDQ0OTIyIEwgMjguODQzNzUgMjQuMDQ0OTIyIEwgMjguODQzNzUgMjIuMDI3MzQ0IEMgMjguODQzNzUgMjAuOTg5ODcxIDI5LjAzMzU3NCAyMC4wNjAyOTMgMjkuMzUzNTE2IDE5LjUwMTk1MyBDIDI5LjY3MzQ1NyAxOC45NDM2MTQgMjkuOTgxODY1IDE4LjcwMTE3MiAzMC43MzgyODEgMTguNzAxMTcyIEwgMzUuMTg1NTQ3IDE4LjcwMTE3MiBMIDM1LjE4NTU0NyAxMi4wMDk3NjYgTCAzNC4zMTgzNTkgMTEuODkyNTc4IEMgMzMuNzE4NTY3IDExLjgxMTQxOCAzMi4zNDkxOTcgMTEuNjIxMDk0IDI5Ljg3ODkwNiAxMS42MjEwOTQgQyAyNy4xNzU4MDggMTEuNjIxMDk0IDI0Ljg1NTU2NyAxMi4zNTc0NDggMjMuMjUzOTA2IDE0LjAyMzQzOCBDIDIxLjY1MjI0NiAxNS42ODk0MjYgMjAuODYxMzI4IDE4LjE3MDEyOCAyMC44NjEzMjggMjEuMzczMDQ3IEwgMjAuODYxMzI4IDI0LjA0Njg3NSBMIDE1LjY2NDA2MiAyNC4wNDY4NzUgTCAxNS42NjQwNjIgMzEuNTY2NDA2IEwgMjAuODYxMzI4IDMxLjU2NjQwNiBMIDIwLjg2MTMyOCA0NC40NzA3MDMgQyAxMS44MTY5OTUgNDIuNTU0ODEzIDUgMzQuNjI0NDQ3IDUgMjUgQyA1IDEzLjk0MjQzOCAxMy45NDI0MzggNSAyNSA1IHoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
-                background-size: 100%;
-            }
-            /* ================================== XOYSKI KAFE END  ====================================== */
-            /* =============================FOOTR START =============================================== */
-            
-            .webLinks li {
-                margin-right: 10px;
-            }
-            
-            .webLinks li div {
-                width: 32px;
-                margin-left: 3px;
-                height: 32px;
-                border-radius: 100000px;
-                background-color: white;
-            }
-            
-            .webLinks ul {
-                align-self: flex-end;
-                display: flex;
-            }
-            
-            .webLinks i {
-                position: absolute;
-                top: 23%;
-                font-size: 20px;
-                left: 22%;
-                color: #2B2B2B;
-            }
-            
-            .contactInfo ul li b {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 50px;
-                display: flex;
-                align-items: center;
-                text-transform: uppercase;
-                color: rgba(255, 255, 255, 0.8);
-            }
-            
-            footer .contactInfo ul {
-                align-self: flex-end;
-            }
-            /* =============================FOOTR END  =============================================== */
-            
-            .competitionText h3 {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 28px;
-                line-height: 100px;
-                /* or 357% */
-                text-transform: uppercase;
-                color: #4F4336;
-            }
-            
-            .competitionText p {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 24px;
-                /* or 150% */
-                color: #4F4336;
-            }
-            
-            .competitionImage img {
-                height: 478px;
-                border-radius: 12px;
-                width: 100%;
-            }
-            
-            .competitionText {
-                background: #FFFFFF;
-                box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-                border-radius: 12px;
-                height: 473px;
-                position: absolute;
-                /* background: beige; */
-                z-index: 100;
-                top: 9%;
-                left: 56%;
-            }
-            
-            .sliderTurn {
-                position: relative;
-                border: 1px solid #4F4336;
-                border-radius: 10000px;
-                width: 50px;
-                height: 50px;
-            }
-            
-            .sliderTurn:hover {
-                border: 1px solid #a98f43 !important;
-                transition-duration: 2s;
-            }
-            
-            .sliderTurn i {
-                position: absolute;
-                font-size: 30px;
-                left: 31%;
-                top: 21%;
-            }
-            
-            .turnRight {
-                cursor: pointer;
-                color: #4F4336;
-            }
-            
-            .turnRight:hover {
-                color: #a98f43 !important;
-                transition-duration: color 1.5s;
-            }
-            /* .sliderTurn :hover {
+@media screen and (max-width: 1025px) {
+    #competitions {
+        padding-bottom: 100px;
+    }
+    .competitionText {
+        left: 49% !important;
+        height: 100% !important;
+    }
+    .competitionText p {
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+        line-height: 15px !important;
+    }
+    #exampleModal .modal-body img {
+        width: 110px !important;
+        height: 110px !important;
+    }
+    #exampleModal .albumDess p {
+        font-size: 13px;
+        line-height: 12px;
+    }
+    #meqsedimizModal .modal-body {
+        font-size: 38px !important;
+        line-height: 46px !important;
+    }
+    #mainStart .videoLogo a {
+        margin-top: 0 !important;
+    }
+    #shoppMain {
+        display: none;
+    }
+    .yaziMain {
+        padding-left: 30px !important;
+        width: 22% !important;
+    }
+    #artGardenMain .mainContent .btnEtrafli {
+        margin-left: 0 !important;
+        margin-bottom: 40px !important;
+        width: 118px;
+        margin-top: 30px !important;
+        height: 28px;
+    }
+    #artGardenMain .mainContent .description {
+        font-size: 24px !important;
+        padding-left: 0 !important;
+        padding-top: 15px !important;
+        line-height: 24px !important;
+    }
+    #xoyskiMain .mainContent .title {
+        padding-top: 20px !important;
+        right: 51% !important;
+        bottom: 115% !important;
+    }
+    #emalatxanaMain .mainContent .title {
+        padding-top: 20px !important;
+        right: 51% !important;
+        bottom: 115% !important;
+    }
+    #shoppMain .mainContent .title {
+        position: absolute;
+        padding-top: 20px !important;
+        right: 51% !important;
+        bottom: 115% !important;
+    }
+    .mainContent .title {
+        font-size: 69px !important;
+        line-height: 70px !important;
+    }
+    .navMenuMain {
+        margin-top: 243px !important;
+    }
+    #xoyskiMain .mainContent .description {
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+    #emalatxanaMain .mainContent .description {
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+    #shoppMain .mainContent .description {
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+    #mainStart .videoLogo {
+        top: 31% !important;
+        left: 5% !important;
+    }
+    #mainStart .videoLogo p {
+        font-size: 10px !important;
+        line-height: 7px !important;
+        margin-top: 14px !important;
+    }
+    .videoLogo span {
+        font-size: 30px !important;
+        line-height: 31px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 3.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 64px !important;
+        height: 64px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute !important;
+        width: 129px !important;
+        height: 24px !important;
+        left: 76% !important;
+        top: 3% !important;
+        font-size: 11px !important;
+    }
+    #artProgram .imgFirst {
+        margin-top: 102px !important;
+        width: 292px !important;
+        height: 315px !important;
+    }
+    #artProgram .imgSecond {
+        margin-top: 10px !important;
+        width: 325px !important;
+        height: 395px !important;
+    }
+    #artProgram .imgThird {
+        width: 250px !important;
+        height: 168.74px !important;
+    }
+    #artProgram .imgFourth {
+        margin-right: 50px !important;
+        padding-right: 4px !important;
+        width: 287px !important;
+        height: 209.17px !important;
+        margin-left: -7px !important;
+    }
+    #artProgram .imgLast {
+        width: 360px !important;
+        height: 269.67px !important;
+    }
+    #artProgram .lastPic {
+        margin-left: -69px !important;
+    }
+    #artProgram .firstPic {
+        margin-right: -50px !important;
+        width: 20% !important;
+    }
+    #artProgram .title {
+        max-width: 265px !important;
+        max-height: 172px !important;
+    }
+    #artProgram .programYazi {
+        display: none;
+    }
+    #artProgram .programContent {
+        margin-left: 15px !important;
+    }
+    #artProgram .secondPart {
+        margin-left: 15px !important;
+    }
+    #artProgramm {
+        display: none;
+    }
+    footer {
+        overflow: initial !important;
+    }
+    footer .feedbackMain {
+        position: absolute;
+        top: -9% !important;
+        left: 52% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #shoppMain {
+        display: none;
+    }
+    .container-fluid {
+        height: 853px !important;
+    }
+    .container {
+        margin-top: 10px !important;
+        width: 1640px !important;
+        height: 853px !important;
+    }
+    aside .asideSectioht {
+        width: 1640px !important;
+        height: 853px !important;
+    }
+    #map {
+        height: 853px !important;
+    }
+    footer .container-fluid {
+        height: 750px !important;
+    }
+    #artProgramm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #competitions {
+        padding-bottom: 100px;
+    }
+    .competitionText {
+        left: 49% !important;
+        height: 100% !important;
+    }
+    .competitionText p {
+        font-size: 13px !important;
+        margin-bottom: 0 !important;
+        line-height: 14px !important;
+    }
+    #exampleModal .modal-body img {
+        width: 75px !important;
+        height: 75px !important;
+    }
+    #exampleModal .albumDess p {
+        font-size: 11px !important;
+        line-height: 14px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP START  */
+    #meqsedimizModal .modal-header .close {
+        padding-right: 60px !important;
+        padding-bottom: 0 !important;
+    }
+    #meqsedimizModal .modal-footer {
+        margin-top: 30px;
+        padding-left: 10px !important;
+    }
+    #meqsedimizModal .webLinks i {
+        font-size: 13px !important;
+    }
+    #meqsedimizModal .webLinks li div {
+        width: 19px !important;
+        padding: 12px !important;
+        height: 19px !important;
+    }
+    #meqsedimizModal .modal-body {
+        padding-left: 10px !important;
+        padding: 0 19px !important;
+        font-size: 33px !important;
+        line-height: 35px !important;
+    }
+    .meqsedimizClose {
+        font-size: 17px !important;
+        line-height: 100px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP END  */
+    #shopMain {
+        display: none;
+    }
+    #shoppMain {
+        display: block;
+    }
+    #xoyskiMain .mainContent .title {
+        right: 16% !important;
+        bottom: 157% !important;
+    }
+    #emalatxanaMain .mainContent .title {
+        right: 16% !important;
+        bottom: 157% !important;
+    }
+    #shoppMain .mainContent .title {
+        right: 16% !important;
+        position: absolute;
+        bottom: 157% !important;
+    }
+    .mainContent .title {
+        font-size: 71px !important;
+        line-height: 70px !important;
+    }
+    #xoyskiMain .mainContent .description {
+        padding-left: 15px;
+    }
+    #emalatxanaMain .mainContent .description {
+        padding-left: 15px;
+    }
+    #shoppMain .mainContent .description {
+        font-size: 19px !important;
+        padding-left: 15px;
+    }
+    .mainContent .description {
+        font-size: 29px !important;
+        line-height: 48px !important;
+    }
+    .btnEtrafli {
+        margin-left: 15px;
+    }
+    .yaziMain {
+        display: none;
+    }
+    #mainStart .videoLogo {
+        top: 31% !important;
+        left: 5% !important;
+    }
+    #mainStart .videoLogo a {
+        font-size: 9px !important;
+        line-height: 7px !important;
+        margin-top: 14px !important;
+    }
+    .videoLogo span {
+        font-size: 23px !important;
+        line-height: 26px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 3.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute !important;
+        width: 115px !important;
+        height: 24px !important;
+        left: 76% !important;
+        top: 3% !important;
+        font-size: 9px !important;
+    }
+    #albomlar {
+        display: none;
+    }
+    .competitionImage img {
+        height: 400px !important;
+    }
+    #artProgram {
+        display: none;
+    }
+    #artProgramm {
+        display: block !important;
+    }
+    footer .feedbackMain {
+        position: absolute !important;
+        top: 26% !important;
+        left: 31% !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #mainStart #girishPhoto {
+        display: block !important;
+    }
+    #mainStart video {
+        display: none !important;
+    }
+    #shopMain {
+        display: none;
+    }
+    #xoyskiMain .mainContent .title {
+        right: 18% !important;
+        bottom: 167% !important;
+    }
+    #emalatxanaMain .mainContent .title {
+        right: 18% !important;
+        bottom: 167% !important;
+    }
+    #shoppMain .mainContent .title {
+        position: absolute;
+        right: 18% !important;
+        bottom: 167% !important;
+    }
+    .mainContent .title {
+        font-size: 49px !important;
+        line-height: 57px !important;
+    }
+    #xoyskiMain .mainContent .description {
+        padding-left: 16px;
+    }
+    #xoyskiMain .btnEtrafli {
+        margin-left: 16px;
+    }
+    #emalatxanaMain .mainContent .description {
+        padding-left: 16px;
+    }
+    #emalatxanaMain .btnEtrafli {
+        margin-left: 16px;
+    }
+    #shoppMain .mainContent .description {
+        padding-left: 16px;
+    }
+    #shoppMain .btnEtrafli {
+        margin-left: 16px;
+    }
+    #mainStart .videoLogo {
+        top: 29% !important;
+        left: 7% !important;
+    }
+    #mainStart .videoLogo a {
+        font-size: 6px !important;
+        line-height: 7px !important;
+        margin-top: 14px !important;
+    }
+    .videoLogo span {
+        font-size: 16px !important;
+        line-height: 17px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 3.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute;
+        width: 111px !important;
+        height: 20px !important;
+        left: 70% !important;
+        top: 3% !important;
+        font-size: 9px !important;
+    }
+    /* FOOTER FEEDBACK FORM START  */
+    footer .feedbackMain {
+        position: absolute;
+        top: 48% !important;
+        left: 41% !important;
+        z-index: 1 !important;
+        width: 301px !important;
+        height: 400px !important;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+    .feedbackMain form h3 {
+        font-size: 20px !important;
+    }
+    .feedbackMain .form-group {
+        margin-top: 10px !important;
+    }
+    .feedbackMain .form-control {
+        height: 0.74rem !important;
+    }
+    .feedbackMain .uploadSubmit {
+        margin-top: 0 !important;
+    }
+    .feedbackMain form .image-upload img {
+        width: 94px !important;
+    }
+    .feedbackMain .submitFeedback {
+        background: #2B2B2B;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        font-family: Body Grotesque Large Trial;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 23px !important;
+        font-size: 16px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    /* FOOTER FEEDBACK FORM END */
+    .yazi {
+        display: none;
+    }
+    .yaziMain {
+        display: none;
+    }
+    #haqqimizdaPage .headingStart {
+        font-size: 50px !important;
+    }
+    .competitionImage img {
+        height: 300px !important;
+    }
+    .competitionText {
+        left: 0 !important;
+        top: 0 !important;
+        position: relative !important;
+    }
+    #albomlarr {
+        height: 740px !important;
+    }
+    #artProgramm .programYazi {
+        display: none !important;
+    }
+    #artProgramm .title {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    #albomlarr {
+        padding: 0px 15px 0px 15px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .competitionText {
+        height: 100% !important;
+    }
+    .competitionText p {
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+    #exampleModal button i {
+        font-size: 23px !important;
+    }
+    #exampleModal .modal-body img {
+        width: 55px !important;
+        height: 55px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP START  */
+    #meqsedimizModal .modal-header .close {
+        padding-right: 36px !important;
+        padding-bottom: 0 !important;
+    }
+    #meqsedimizModal .modal-footer {
+        padding-left: 10px !important;
+    }
+    #meqsedimizModal .webLinks i {
+        font-size: 13px !important;
+    }
+    #meqsedimizModal .webLinks li div {
+        width: 19px !important;
+        padding: 12px !important;
+        height: 19px !important;
+    }
+    #meqsedimizModal .modal-body {
+        padding-left: 10px !important;
+        padding: 0 19px !important;
+        font-size: 16px !important;
+        line-height: 15px !important;
+    }
+    .meqsedimizClose {
+        font-size: 10px !important;
+        line-height: 50px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP END  */
+    #shopMain {
+        display: none;
+    }
+    #xoyskiMain .mainContent .title {
+        position: absolute;
+        right: 10% !important;
+        bottom: 148% !important;
+    }
+    #emalatxanaMain .mainContent .title {
+        position: absolute;
+        right: 10% !important;
+        bottom: 148% !important;
+    }
+    #shoppMain .mainContent .title {
+        position: absolute;
+        right: 10% !important;
+        bottom: 148% !important;
+    }
+    .mainContent .title {
+        font-size: 36px !important;
+        line-height: 43px !important;
+    }
+    .mainContent .description {
+        font-size: 22px !important;
+        padding-left: 16px !important;
+        line-height: 33px !important;
+    }
+    #xoyskiMain .btnEtrafli {
+        margin-left: 16px !important;
+    }
+    #emalatxanaMain .btnEtrafli {
+        margin-left: 16px !important;
+    }
+    #shoppMain .btnEtrafli {
+        margin-left: 16px !important;
+    }
+    footer .feedbackMain {
+        position: absolute;
+        top: 20% !important;
+        left: 10% !important;
+    }
+    #mainStart .videoLogo {
+        position: absolute;
+        top: 22% !important;
+        left: 7% !important;
+    }
+    #mainStart .videoLogo a {
+        font-size: 4px !important;
+        line-height: 10px !important;
+        margin-top: 7px !important;
+    }
+    .videoLogo span {
+        font-size: 11px !important;
+        line-height: 12px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 1.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute;
+        width: 102px !important;
+        height: 16px !important;
+        left: 63% !important;
+        top: 2% !important;
+        font-weight: 500;
+        font-size: 8px !important;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .competitionText {
+        height: 100% !important;
+    }
+    .competitionText p {
+        margin-bottom: 0 !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+    }
+    .sliderTurn {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .sliderTurn i {
+        font-size: 19px !important;
+        left: 31% !important;
+        top: 21% !important;
+    }
+    #exampleModal .albumDess p {
+        font-size: 9px !important;
+        line-height: 13px !important;
+    }
+    #exampleModal .modal-body img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP START  */
+    #meqsedimizModal .modal-header .close {
+        padding-right: 36px !important;
+        padding-bottom: 0 !important;
+    }
+    #meqsedimizModal .modal-footer {
+        padding-left: 10px !important;
+    }
+    #meqsedimizModal .webLinks i {
+        font-size: 13px !important;
+    }
+    #meqsedimizModal .webLinks li div {
+        width: 19px !important;
+        padding: 12px !important;
+        height: 19px !important;
+    }
+    #meqsedimizModal .modal-body {
+        padding-left: 10px !important;
+        padding: 0 19px !important;
+        font-size: 17px !important;
+        line-height: 17px !important;
+    }
+    .meqsedimizClose {
+        font-size: 10px !important;
+        line-height: 50px !important;
+    }
+    /* ESAS SEHIFE "MEQSEDIMIZ" POPUP END  */
+    #shopMain {
+        display: none;
+    }
+    footer .feedbackMain {
+        position: absolute;
+        top: 20% !important;
+        left: 10% !important;
+    }
+    #mainStart .videoLogo {
+        position: absolute;
+        top: 22% !important;
+        left: 7% !important;
+    }
+    #mainStart .videoLogo a {
+        font-size: 4px !important;
+        line-height: 10px !important;
+        margin-top: 7px !important;
+    }
+    .videoLogo span {
+        font-size: 11px !important;
+        line-height: 12px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 1.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute;
+        width: 102px !important;
+        height: 16px !important;
+        left: 63% !important;
+        top: 2% !important;
+        font-weight: 500;
+        font-size: 8px !important;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #shopMain {
+        display: none;
+    }
+    footer .feedbackMain {
+        position: absolute;
+        top: 20% !important;
+        left: 3% !important;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #competitions {
+        padding-bottom: 0px !important;
+    }
+    .competitionText p {
+        margin-bottom: 0 !important;
+        font-size: 11px !important;
+        line-height: 11px !important;
+    }
+    .sliderTurn {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .sliderTurn i {
+        font-size: 16px !important;
+        left: 31% !important;
+        top: 21% !important;
+    }
+    #exampleModal .modal-body img {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #exampleModal .albumDess p {
+        font-size: 7px !important;
+        line-height: 9px !important;
+    }
+    #meqsedimizModal .modal-body {
+        padding-left: 10px !important;
+        padding: 0 19px !important;
+        font-size: 13px !important;
+        line-height: 11px !important;
+    }
+    #shopMain {
+        display: none;
+    }
+    .mainContent .description {
+        font-size: 15px !important;
+        padding-left: 16px !important;
+        line-height: 23px !important;
+    }
+    #artGardenMain.mainContent .description {
+        font-size: 13px !important;
+        padding-left: 16px !important;
+        line-height: 13px !important;
+    }
+    footer .feedbackMain {
+        position: absolute;
+        top: 20% !important;
+        left: -2% !important;
+        width: 287px !important;
+        height: 395px !important;
+    }
+    #mainStart .videoLogo {
+        position: absolute;
+        top: 16% !important;
+        left: 7% !important;
+    }
+    #mainStart .videoLogo a {
+        font-size: 4px !important;
+        line-height: 10px !important;
+        margin-top: 7px !important;
+    }
+    .videoLogo span {
+        font-size: 10px !important;
+        line-height: 10px !important;
+    }
+    #mainStart #artGardenGanjaLogo {
+        position: absolute;
+        left: 8% !important;
+        top: 1.5% !important;
+        z-index: 4 !important;
+    }
+    #mainStart #artGardenGanjaLogo img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    #mainStart #meqsedimiz {
+        position: absolute;
+        width: 111px !important;
+        height: 20px !important;
+        left: 56% !important;
+        top: 2% !important;
+        font-weight: 500;
+        font-size: 9px !important;
+        z-index: 3;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #albomlarr {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 1.75rem auto;
+    }
+}
+
+html {
+    scroll-behavior: unset;
+}
+
+section {
+    padding-top: 15px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+section .container {
     position: relative;
+}
+
+body {
+    mix-blend-mode: hard-light;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+*/ aside {
+    float: right;
+    padding-bottom: 150px;
+    padding-right: 50px;
+}
+
+.asideP {
+    position: absolute;
+    height: 376.5px;
+    padding-top: 140px;
+    margin-left: 54px;
+    top: 0%;
+    right: 0%;
+}
+
+.asideP p {
+    font-family: Body Grotesque Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    color: #ffffff;
+    transform: rotate(270deg);
+}
+
+.asideP a {
+    text-decoration: none !important;
+}
+
+.asideNav .nactive li {
+    padding-left: 2px;
+}
+
+.asideNav ul p {
+    font-weight: 500;
+    font-size: 9px !important;
+    color: #F0C443 !important
+}
+
+.asideNav ul .active .fa-circle {
+    font-weight: 500;
+    font-size: 8px !important;
+    color: #F0C443 !important;
+}
+
+.asideNav .active a {
+    margin-top: 4px;
+    text-decoration: none;
+    display: flex;
+}
+
+.asideNav .nactive a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+.asideNav .active i {
+    padding-top: 3px;
+    margin-left: 6px;
+}
+
+.asideNav .nactive i {
+    padding-top: 5px !important;
+    margin-left: 6px !important;
+}
+
+.asideNav .active a p {
+    margin-bottom: 2px;
+}
+
+.artGarden {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.xoyskii {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.shop {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.bizeQoshul {
+    position: absolute;
+    margin-bottom: 2px;
+    display: none;
+    text-transform: uppercase !important;
+}
+
+.emalatxana {
+    position: absolute;
+    margin-bottom: 2px;
+    text-transform: uppercase !important;
+    display: none;
+}
+
+.asideNav ul li a .fa-circle {
+    font-weight: 600;
+    position: relative;
+    color: grey;
+    font-size: 8px;
+}
+
+.asideNav ul li a .fa-circle:hover {
+    color: #F0C443 !important;
+}
+
+.asideNav ul {
+    height: 450px;
+    list-style: none;
+    padding-top: 210px !important;
+    padding-bottom: 50px !important;
+}
+
+.asideNav .nactive div {
+    width: 55px;
+}
+
+
+/* ASIDE END  */
+
+#emalatxanaPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#xoyskiPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#bizeQoshulPage img {
+    height: 80%;
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+#artGardenPage img {
+    height: 80%;
+    width: 100% !important;
+    border-radius: 10px;
+}
+
+#shopPage img {
+    width: 537.21px;
+    height: 640.03px;
+    border-radius: 10px;
+}
+
+#bizeQoshulPage .sectionHeading {
+    position: absolute;
+    left: 65px;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#bizeQoshulPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#artGardenPage .sectionHeading {
+    position: absolute;
+    left: 65px;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#artGardenPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#shopPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#bizeQoshulPage .artDes {
+    position: absolute;
+    width: 525px;
+    height: 546px;
+    left: 65px;
+    top: 254px;
+}
+
+#artGardenPage .artDes {
+    position: absolute;
+    width: 525px;
+    height: 546px;
+    left: 65px;
+    top: 254px;
+}
+
+#shopPage .sectionHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#shopPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#xoyskiPage .sectionHeading {
+    position: absolute;
+    top: 0;
+    right: 330px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#emalatxanaPage .sectionHeading {
+    position: absolute;
+    top: 80px;
+    right: 455px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    z-index: 2;
+    width: 388px;
+    height: 186px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase !important;
+}
+
+#emalatxanaPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#xoyskiPage .sectionHeading h1 {
+    color: white;
+    font-family: Body Grotesque Large Trial;
+    font-size: 85px !important;
+}
+
+#map {
+    background-image: url('img/Desert.jpg') !important;
+}
+
+p {
+    color: white;
+}
+
+
+/* FOOTER START */
+
+footer {
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    background: #2B2B2B;
+}
+
+footer .hello {
+    height: 565px !important;
+    width: 100%;
+    background-image: url("../img/mapXoyski.JPG");
+}
+
+footer ul {
+    padding-left: 0;
+    padding-top: 60px;
+    list-style: none !important;
+}
+
+footer ul li {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer ul li h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+footer h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+#feedbackForm form {
+    z-index: 11;
+    position: absolute;
+    width: 495px;
+    height: 580px;
+    left: 802px;
+    top: 5088px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: white;
+}
+
+#feedbackForm input {
+    outline: none !important;
+    border: none !important;
+}
+
+#feedbackForm h1 {
+    text-transform: uppercase;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15%;
+    align-items: center !important;
+    color: #4F4336;
+    line-height: 100px;
+    padding-top: 3%;
+}
+
+#feedbackForm label {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    align-self: flex-start;
+    font-weight: bold;
+    padding-right: 35%;
+    font-size: 14px;
+    color: rgba(79, 67, 54, 0.5);
+    text-transform: capitalize;
+}
+
+#feedbackForm .form-group {
+    margin-right: 15%;
+    margin-bottom: 47px;
+    margin-left: 15%;
+    border-bottom: 1px solid rgba(79, 67, 54, 0.5) !important;
+}
+
+.webLinks li {
+    margin-right: 10px;
+}
+
+.webLinks li div {
+    width: 32px;
+    margin-left: 3px;
+    height: 32px;
+    border-radius: 100000px;
+    background-color: white;
+}
+
+.webLinks ul {
+    align-self: flex-end;
+    display: flex;
+}
+
+.webLinks i {
+    position: absolute;
+    top: 23%;
+    font-size: 20px;
+    left: 22%;
+    color: #2B2B2B;
+}
+
+.contactInfo ul li b {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .contactInfo ul {
+    align-self: flex-end;
+}
+
+
+/* FOOOTER END  */
+
+
+/* ==================================  XOYSKI KAFE START ================================== */
+
+header button:focus {
+    outline-color: white !important;
+}
+
+#haqqimizdaPage {
+    padding-top: 150px;
+}
+
+#haqqimizdaPage .headingStart {
+    display: flex;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    color: #4F4336;
+    align-items: center;
+    text-transform: uppercase
+}
+
+#haqqimizdaPage p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #4F4336;
+}
+
+#haqqimizdaPage img {
+    width: 100%;
+}
+
+#haqqimizdaPage .quoteStart {
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    /* or 133% */
+    color: #F7F7F7;
+}
+
+#albomlar .head {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    text-transform: uppercase !important;
+    color: #4F4336;
+}
+
+#albomlarr .head {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    text-transform: uppercase !important;
+    color: #4F4336;
+}
+
+#albomlarr {
+    height: 1000px;
+}
+
+#albomlar p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albomlarr p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albomlar h3 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albomlarr h3 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+.scnd {
+    height: 79%;
+}
+
+#albomlar img {
+    border-radius: 8px;
+}
+
+#albomlarr img {
+    border-radius: 8px;
+}
+
+.yaziMain {
+    padding-left: 58px;
+    width: 25%;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+.yazi {
+    padding-left: 100px;
+    width: 10%;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    transform: rotate(90deg);
+}
+
+.programYazi {
+    padding-top: 310px;
+    width: 10%;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+
+#shekiller img {
+    border-radius: 8px;
+}
+
+#shekiller h1 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+#shekiller h3 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #4F4336;
+}
+
+#shekiller p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #FF5A3C;
+}
+
+#shekiller .pages {
+    padding-bottom: 10%;
+    /* padding-left: 5%; */
+    padding-top: 10%;
+}
+
+#shekiller .pages i {
+    font-size: 13px;
+    padding-right: 5%;
+    color: #EDEDED;
+    cursor: pointer;
+}
+
+#shekiller .pages :hover {
+    color: black;
+}
+
+#shekiller .pages .active {
+    color: black !important;
+}
+
+#shekiller .pageBtn {
+    padding-right: 13% !important;
+}
+
+#shekiller .smallPic {
+    cursor: pointer;
+}
+
+.icons8-facebook {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDMgQyAxMi44NjE1NjIgMyAzIDEyLjg2MTU2MiAzIDI1IEMgMyAzNi4wMTkxMzUgMTEuMTI3NTMzIDQ1LjEzODM1NSAyMS43MTI4OTEgNDYuNzI4NTE2IEwgMjIuODYxMzI4IDQ2LjkwMjM0NCBMIDIyLjg2MTMyOCAyOS41NjY0MDYgTCAxNy42NjQwNjIgMjkuNTY2NDA2IEwgMTcuNjY0MDYyIDI2LjA0Njg3NSBMIDIyLjg2MTMyOCAyNi4wNDY4NzUgTCAyMi44NjEzMjggMjEuMzczMDQ3IEMgMjIuODYxMzI4IDE4LjQ5NDk2NSAyMy41NTE5NzMgMTYuNTk5NDE3IDI0LjY5NTMxMiAxNS40MTAxNTYgQyAyNS44Mzg2NTIgMTQuMjIwODk2IDI3LjUyODAwNCAxMy42MjEwOTQgMjkuODc4OTA2IDEzLjYyMTA5NCBDIDMxLjc1ODcxNCAxMy42MjEwOTQgMzIuNDkwMDIyIDEzLjczNDk5MyAzMy4xODU1NDcgMTMuODIwMzEyIEwgMzMuMTg1NTQ3IDE2LjcwMTE3MiBMIDMwLjczODI4MSAxNi43MDExNzIgQyAyOS4zNDk2OTcgMTYuNzAxMTcyIDI4LjIxMDQ0OSAxNy40NzU5MDMgMjcuNjE5MTQxIDE4LjUwNzgxMiBDIDI3LjAyNzgzMiAxOS41Mzk3MjQgMjYuODQzNzUgMjAuNzcxODE2IDI2Ljg0Mzc1IDIyLjAyNzM0NCBMIDI2Ljg0Mzc1IDI2LjA0NDkyMiBMIDMyLjk2Njc5NyAyNi4wNDQ5MjIgTCAzMi40MjE4NzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgMjkuNTY0NDUzIEwgMjYuODQzNzUgNDYuOTI5Njg4IEwgMjcuOTc4NTE2IDQ2Ljc3NTM5MSBDIDM4LjcxNDM0IDQ1LjMxOTM2NiA0NyAzNi4xMjY4NDUgNDcgMjUgQyA0NyAxMi44NjE1NjIgMzcuMTM4NDM4IDMgMjUgMyB6IE0gMjUgNSBDIDM2LjA1NzU2MiA1IDQ1IDEzLjk0MjQzOCA0NSAyNSBDIDQ1IDM0LjcyOTc5MSAzOC4wMzU3OTkgNDIuNzMxNzk2IDI4Ljg0Mzc1IDQ0LjUzMzIwMyBMIDI4Ljg0Mzc1IDMxLjU2NDQ1MyBMIDM0LjEzNjcxOSAzMS41NjQ0NTMgTCAzNS4yOTg4MjggMjQuMDQ0OTIyIEwgMjguODQzNzUgMjQuMDQ0OTIyIEwgMjguODQzNzUgMjIuMDI3MzQ0IEMgMjguODQzNzUgMjAuOTg5ODcxIDI5LjAzMzU3NCAyMC4wNjAyOTMgMjkuMzUzNTE2IDE5LjUwMTk1MyBDIDI5LjY3MzQ1NyAxOC45NDM2MTQgMjkuOTgxODY1IDE4LjcwMTE3MiAzMC43MzgyODEgMTguNzAxMTcyIEwgMzUuMTg1NTQ3IDE4LjcwMTE3MiBMIDM1LjE4NTU0NyAxMi4wMDk3NjYgTCAzNC4zMTgzNTkgMTEuODkyNTc4IEMgMzMuNzE4NTY3IDExLjgxMTQxOCAzMi4zNDkxOTcgMTEuNjIxMDk0IDI5Ljg3ODkwNiAxMS42MjEwOTQgQyAyNy4xNzU4MDggMTEuNjIxMDk0IDI0Ljg1NTU2NyAxMi4zNTc0NDggMjMuMjUzOTA2IDE0LjAyMzQzOCBDIDIxLjY1MjI0NiAxNS42ODk0MjYgMjAuODYxMzI4IDE4LjE3MDEyOCAyMC44NjEzMjggMjEuMzczMDQ3IEwgMjAuODYxMzI4IDI0LjA0Njg3NSBMIDE1LjY2NDA2MiAyNC4wNDY4NzUgTCAxNS42NjQwNjIgMzEuNTY2NDA2IEwgMjAuODYxMzI4IDMxLjU2NjQwNiBMIDIwLjg2MTMyOCA0NC40NzA3MDMgQyAxMS44MTY5OTUgNDIuNTU0ODEzIDUgMzQuNjI0NDQ3IDUgMjUgQyA1IDEzLjk0MjQzOCAxMy45NDI0MzggNSAyNSA1IHoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+    background-size: 100%;
+}
+
+
+/* ================================== XOYSKI KAFE END  ====================================== */
+
+.competitionText h3 {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+    /* or 357% */
+    text-transform: uppercase;
+    color: #4F4336;
+}
+
+.competitionText p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #4F4336;
+}
+
+.competitionImage img {
+    height: 478px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.competitionText {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    height: 473px;
+    position: absolute;
+    /* background: beige; */
+    z-index: 100;
+    top: 9%;
+    left: 56%;
+}
+
+.sliderTurn {
+    position: relative;
+    border: 1px solid #4F4336;
     border-radius: 10000px;
     width: 50px;
     height: 50px;
-} */
-            
-            .turnLeft:hover {
-                color: #a98f43 !important;
-                transition-duration: color 1.5s;
-            }
-            
-            .turnLeft {
-                cursor: pointer;
-                margin-right: 6px;
-                color: #4F4336;
-            }
-            /* ART GARDEN ARTPROGRAM START ========================================= */
-            
-            #artProgram .carousel-item {
-                width: 1100px !important;
-            }
-            
-            #artProgram h3 {
-                margin-bottom: 0 !important;
-                font-family: Body Grotesque Large Trial;
-                font-size: 28px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 60px;
-                letter-spacing: 0em;
-                text-align: left;
-                color: #4F4336;
-                text-transform: uppercase;
-            }
-            
-            #artProgram p {
-                margin-bottom: 0 !important;
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 20px;
-                color: #4F4336;
-            }
-            
-            #artProgram ul {
-                margin-top: 3px;
-                padding-left: 15px;
-            }
-            
-            #artProgram ul li {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 22px;
-                color: rgba(79, 67, 54, 0.7);
-            }
-            
-            #artProgramm {
-                height: 1000px;
-            }
-            
-            #artProgramm h3 {
-                margin-bottom: 0 !important;
-                font-family: Body Grotesque Large Trial;
-                font-size: 28px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 60px;
-                letter-spacing: 0em;
-                text-align: left;
-                color: #4F4336;
-                text-transform: uppercase;
-            }
-            
-            #artProgramm p {
-                margin-bottom: 0 !important;
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 20px;
-                color: #4F4336;
-            }
-            
-            #artProgramm ul {
-                margin-top: 3px;
-                padding-left: 15px;
-            }
-            
-            #artProgramm ul li {
-                font-family: Montserrat;
-                font-style: italic;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 22px;
-                color: rgba(79, 67, 54, 0.7);
-            }
-            
-            #artProgram .title {}
-            
-            #artProgram .programContent {
-                margin-top: 10px;
-                padding-bottom: 25px;
-                height: 430px;
-                overflow: hidden;
-                display: flex;
-            }
-            
-            #artProgram .secondPart {
-                margin-top: 10px;
-                padding-bottom: 25px;
-                height: 430px;
-                overflow: hidden;
-                display: flex;
-            }
-            
-            #artProgram .firstPic {}
-            
-            #artProgram .imgFirst {
-                margin-top: 60px;
-                border-radius: 12px;
-                width: 340px;
-                height: 356.84px;
-            }
-            
-            #artProgram .secondPic {}
-            
-            #artProgram .imfSecond {
-                margin-top: 10px;
-                width: 359px;
-                height: 406.21px;
-                border-radius: 12px;
-            }
-            
-            #artProgram .thirdPic {}
-            
-            #artProgram .imgThird {
-                border-radius: 12px;
-                width: 268px;
-                height: 191.74px;
-            }
-            
-            #artProgram .fourthPic {}
-            
-            #artProgram .imgFourth {
-                border-radius: 12px;
-                width: 355px;
-                height: 248.17px;
-            }
-            
-            #artProgram .lastPic {}
-            
-            #artProgram .imgLast {
-                width: 439px;
-                height: 314.67px;
-                border-radius: 12px;
-            }
-            /* ART GARDEN ARTPROGRAM END ========================================= */
-            /* FOOTER FEEDBACKFORM START ========================================= */
-            
-            .feedbackMain {
-                position: absolute;
-                top: -7%;
-                left: 61%;
-                z-index: 1;
-                width: 475px;
-                height: 710px;
-                background: #FFFFFF;
-                box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-                border-radius: 12px;
-            }
-            
-            .feedbackMain form {
-                padding: 45px;
-            }
-            
-            .feedbackMain form label {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                margin-bottom: 0px;
-                font-weight: bold;
-                font-size: 14px;
-                color: rgba(79, 67, 54, 0.5);
-            }
-            
-            .feedbackMain form input {
-                padding-top: 0px !important;
-                padding-bottom: 0px !important;
-                border: none;
-                border-bottom: 1px solid rgba(79, 67, 54, 0.5);
-                ;
-                border-radius: 0;
-            }
-            
-            .feedbackMain form .form-group {
-                margin-top: 40px;
-            }
-            
-            .feedbackMain form .heading {
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 100px;
-                display: flex;
-                align-items: center;
-                text-transform: uppercase;
-                color: #4F4336;
-            }
-            
-            .feedbackMain form .image-upload img {
-                cursor: pointer;
-            }
-            
-            .feedbackMain form #file-input {
-                display: none;
-            }
-            
-            .feedbackMain form .submitFeedback {
-                background: #2B2B2B;
-                box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
-                border-radius: 12px;
-                font-family: Body Grotesque Large Trial;
-                font-style: normal;
-                font-weight: bold;
-                line-height: 50px;
-                font-size: 16px;
-                padding-left: 30px;
-                padding-right: 30px;
-                color: rgba(255, 255, 255, 0.8);
-            }
-            
-            .feedbackMain form .uploadSubmit {
-                margin-top: 50px;
-            }
-            /* FOOTER FEEDBACKFORM END ========================================= */
+}
+
+.sliderTurn:hover {
+    border: 1px solid #a98f43 !important;
+    transition-duration: 2s;
+}
+
+.sliderTurn i {
+    position: absolute;
+    font-size: 30px;
+    left: 31%;
+    top: 21%;
+}
+
+.turnRight {
+    cursor: pointer;
+    color: #4F4336;
+}
+
+.turnRight:hover {
+    color: #a98f43 !important;
+    transition-duration: color 1.5s;
+}
+
+.turnLeft:hover {
+    color: #a98f43 !important;
+    transition-duration: color 1.5s;
+}
+
+.turnLeft {
+    cursor: pointer;
+    margin-right: 6px;
+    color: #4F4336;
+}
+
+
+/* ART GARDEN ARTPROGRAM START ========================================= */
+
+#artProgram .carousel-item {
+    width: 1100px !important;
+}
+
+#artProgram h3 {
+    margin-bottom: 0 !important;
+    font-family: Body Grotesque Large Trial;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4336;
+    text-transform: uppercase;
+}
+
+#artProgram p {
+    margin-bottom: 0 !important;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4336;
+}
+
+#artProgram ul {
+    margin-top: 3px;
+    padding-left: 15px;
+}
+
+#artProgram ul li {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(79, 67, 54, 0.7);
+}
+
+#artProgramm {
+    height: 1000px;
+}
+
+#artProgramm h3 {
+    margin-bottom: 0 !important;
+    font-family: Body Grotesque Large Trial;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4336;
+    text-transform: uppercase;
+}
+
+#artProgramm p {
+    margin-bottom: 0 !important;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4336;
+}
+
+#artProgramm ul {
+    margin-top: 3px;
+    padding-left: 15px;
+}
+
+#artProgramm ul li {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(79, 67, 54, 0.7);
+}
+
+#artProgram .title {}
+
+#artProgram .programContent {
+    margin-top: 10px;
+    padding-bottom: 25px;
+    height: 430px;
+    overflow: hidden;
+    display: flex;
+}
+
+#artProgram .secondPart {
+    margin-top: 10px;
+    padding-bottom: 25px;
+    height: 430px;
+    overflow: hidden;
+    display: flex;
+}
+
+#artProgram .imgFirst {
+    margin-top: 60px;
+    border-radius: 12px;
+    width: 340px;
+    height: 356.84px;
+}
+
+#artProgram .imfSecond {
+    margin-top: 10px;
+    width: 359px;
+    height: 406.21px;
+    border-radius: 12px;
+}
+
+#artProgram .imgThird {
+    border-radius: 12px;
+    width: 268px;
+    height: 191.74px;
+}
+
+#artProgram .imgFourth {
+    border-radius: 12px;
+    width: 355px;
+    height: 248.17px;
+}
+
+#artProgram .imgLast {
+    width: 439px;
+    height: 314.67px;
+    border-radius: 12px;
+}
+
+
+/* ART GARDEN ARTPROGRAM END ========================================= */
+
+
+/* FOOTER FEEDBACKFORM START ========================================= */
+
+.feedbackMain {
+    position: absolute;
+    top: -7%;
+    left: 61%;
+    z-index: 1;
+    width: 475px;
+    height: 710px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.feedbackMain form {
+    padding: 45px;
+}
+
+.feedbackMain form label {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(79, 67, 54, 0.5);
+}
+
+.feedbackMain form input {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border: none;
+    border-bottom: 1px solid rgba(79, 67, 54, 0.5);
+    ;
+    border-radius: 0;
+}
+
+.feedbackMain form .form-group {
+    margin-top: 40px;
+}
+
+.feedbackMain form .heading {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4F4336;
+}
+
+.feedbackMain form .image-upload img {
+    cursor: pointer;
+}
+
+.feedbackMain form #file-input {
+    display: none;
+}
+
+.feedbackMain form .submitFeedback {
+    background: #2B2B2B;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.feedbackMain form .uploadSubmit {
+    margin-top: 50px;
+}
+
+
+/* FOOTER FEEDBACKFORM END ========================================= */
+
+
+/* 
+ESAS SEHIFE--MAIN PAGE-- START ==================================================================
+ */
+
+#EsasSehife a {
+    color: white;
+    text-decoration: none !important;
+}
+
+#mainStart video {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+#mainStart #girishPhoto {
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+#mainStart .videoLogo {
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    color: white;
+    z-index: 2;
+}
+
+#mainStart .videoLogo a:hover {
+    cursor: pointer;
+    color: #F0C443 !important;
+}
+
+#mainStart .videoLogo a {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+    margin-top: 50px;
+}
+
+#mainStart #meqsedimiz {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 77%;
+    top: 10%;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+#mainStart #artGardenGanjaLogo {
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    z-index: 4;
+}
+
+#mainStart #artGardenGanjaLogo img {
+    width: 64px;
+    height: 64px;
+}
+
+#mainStart #meqsedimiz:hover {
+    cursor: pointer;
+    color: #F0C443;
+    border-color: #F0C443;
+}
+
+.videoLogo span {
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    color: #F7F7F7;
+}
+
+.mainContent {
+    width: 90%;
+}
+
+.yaziMain .bizeQoshulBtn {
+    width: 180px;
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.yaziMain .bizeQoshulBtn:hover {
+    cursor: pointer;
+    color: #F0C443;
+    border-color: #F0C443;
+}
+
+.navMenuMain {
+    margin-top: 385px;
+}
+
+#artGardenMain .navMenuMain {
+    margin-top: 339px;
+}
+
+.navMenuMain ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.navMenuMain ul li {
+    padding: 10px 0;
+}
+
+.navMenuMain span.active {
+    visibility: visible !important;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #F0C443;
+}
+
+.navMenuMain i.active {
+    font-size: 12px !important;
+    color: #F0C443;
+}
+
+.navMenuMain ul i {
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.navMenuMain span {
+    visibility: hidden;
+}
+
+#xoyskiMain .Image img {
+    /* opacity: 0.5; */
+    border-radius: 12px;
+}
+
+#xoyskiMain .content {
+    align-self: flex-end;
+}
+
+#xoyskiMain .mainContent .title {
+    position: absolute;
+    right: 51%;
+    bottom: 110%;
+}
+
+#emalatxanaMain .Image img {
+    /* opacity: 0.5; */
+    height: 115%;
+    border-radius: 12px;
+}
+
+#emalatxanaMain .content {
+    align-self: flex-end;
+}
+
+#emalatxanaMain .mainContent .title {
+    position: absolute;
+    right: 26%;
+    bottom: 110%;
+}
+
+.mainContent .title {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mainContent .description {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+#xoyskiMain .mainContent .description {
+    align-self: flex-end;
+}
+
+#emalatxanaMain .mainContent .description {
+    align-self: flex-end;
+}
+
+.btnEtrafli {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 129px;
+    height: 40px;
+    background: #FF5A3C;
+    border-radius: 20px;
+}
+
+#artGardenMain .Image img {
+    /* opacity: 0.5; */
+    border-radius: 12px;
+}
+
+#shopMain .content {
+    align-self: center !important;
+}
+
+#shopMain .Image img {
+    /* opacity: 0.5; */
+    border-radius: 12px;
+}
+
+
+/* ESAS SEHIFE "MEQSEDIMIZ" POPUP START  */
+
+#meqsedimizModal .modal-content {
+    background: #FF5A3C;
+}
+
+#meqsedimizModal .modal-header {
+    border: 1px solid #FF5A3C;
+}
+
+#meqsedimizModal .modal-header .close {
+    padding-right: 112px;
+    padding-bottom: 104px;
+}
+
+#meqsedimizModal .modal-footer {
+    padding-left: 80px;
+    border: 1px solid #FF5A3C;
+}
+
+#meqsedimizModal .webLinks i {
+    font-size: 24px;
+    left: 25% !important;
+    color: #FF5A3C !important;
+}
+
+#meqsedimizModal .webLinks li div {
+    cursor: pointer;
+    width: 43px;
+    padding: 22px;
+    height: 32px;
+}
+
+#meqsedimizModal .modal-body {
+    padding: 63px 92px;
+    padding-top: 0 !important;
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.meqsedimizClose {
+    padding: 20px;
+    font-family: Body Grotesque Fit Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+
+/* ESAS SEHIFE "MEQSEDIMIZ" POPUP END  */
+
+
+/* -----" ART GARDEN" PAGE ALBUM POPUP----  START  */
+
+#exampleModal .close {
+    opacity: 1 !important;
+}
+
+#exampleModal .modal-body img {
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+#exampleModal .modal-body img:hover {
+    opacity: 0.5;
+}
+
+#exampleModal {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#exampleModal button i {
+    font-size: 36px;
+    color: #4F4336;
+}
+
+#exampleModal .modal-header {
+    border-bottom: none !important;
+}
+
+#exampleModal .albumDess h3 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#exampleModal .albumDess p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4F4336;
+}
+
+#albumSinglePic .modal-header {
+    border-bottom: none !important;
+}
+
+#albumSinglePic .modal-header .backToAlbum {
+    margin: 0;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #4F4336 !important;
+}
+
+#albumSinglePic button i {
+    font-size: 32px;
+    color: #4F4336;
+}
+
+#albumSinglePic {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+
+/* -----" ART GARDEN" PAGE ALBUM POPUP----  END  */
+
+
+/* 
+ESAS SEHIFE END ==================================================================
+*/
+
+
+/* LOGIN REGISTER START --========================================================== */
+
+.LoginForm .form-group {
+    margin-top: 30px !important;
+}
+
+.LoginForm .form-control {
+    height: 1rem !important;
+}
+
+.LoginForm form label {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(79, 67, 54, 0.5);
+}
+
+.LoginForm form input {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border: none;
+    border-bottom: 1px solid rgba(79, 67, 54, 0.5);
+    border-radius: 0;
+}
+
+.LoginForm .headingLogin {
+    font-family: Body Grotesque Large Trial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100px;
+    color: #4F4336;
+}
+
+.pageBrightness {
+    filter: brightness(0.5);
+}
+
+.LoginForm .daxilOl {
+    border: 1px solid #FF5A3C;
+    background: #FF5A3C;
+    border-radius: 20px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* LOGIN REGISTER END --========================================================== */

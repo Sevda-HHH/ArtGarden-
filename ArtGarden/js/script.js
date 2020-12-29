@@ -1,5 +1,73 @@
 $(document).ready(function() {
-    // var btnPage= $(".pageBtn").
+
+    // MAIN PAGE SIDENAV START  =============
+    $(".navArtGarden i").mouseover(function() {
+        $(this).css("color", "#F0C443")
+        $(this).prev().css({
+            "visibility": "visible",
+            "color": "#F0C443"
+        })
+    })
+    $(".navArtGarden").mouseout(function() {
+        if ($(this).children().first().hasClass("active")) {
+            return;
+        } else {
+            $(this).children().last().css("color", "white")
+            $(this).children().first().css("visibility", "hidden")
+        }
+    })
+
+    $(".navXoyski i").mouseover(function() {
+        $(this).css("color", "#F0C443")
+        $(this).prev().css({
+            "visibility": "visible",
+            "color": "#F0C443"
+        })
+    })
+    $(".navXoyski").mouseout(function() {
+        if ($(this).children().first().hasClass("active")) {
+            return;
+        } else {
+            $(this).children().last().css("color", "white")
+            $(this).children().first().css("visibility", "hidden")
+        }
+
+    })
+
+    $(".navShop i").mouseover(function() {
+        $(this).css("color", "#F0C443")
+        $(this).prev().css({
+            "visibility": "visible",
+            "color": "#F0C443"
+        })
+    })
+    $(".navShop").mouseout(function() {
+        if ($(this).children().first().hasClass("active")) {
+            return;
+        } else {
+            $(this).children().last().css("color", "white")
+            $(this).children().first().css("visibility", "hidden")
+        }
+    })
+
+    $(".navEmalatxana i").mouseover(function() {
+        $(this).css("color", "#F0C443")
+        $(this).prev().css({
+            "visibility": "visible",
+            "color": "#F0C443"
+        })
+    })
+    $(".navEmalatxana").mouseout(function() {
+        if ($(this).children().first().hasClass("active")) {
+            return;
+        } else {
+            $(this).children().last().css("color", "white")
+            $(this).children().first().css("visibility", "hidden")
+        }
+    })
+
+    // MAIN PAGE SIDENAV START  =============
+
     $(".smallPic img").click(function() {
         pageaa = $(this).attr("src");
         $(".largePic img").attr("src", pageaa);
@@ -23,15 +91,6 @@ $(document).ready(function() {
             }
         })
     })
-
-    // $(".competitionImage img").each(function() {
-    //     hello = $(this).attr("class");
-    //     if (hello == "active") {
-    //         $(this).show()
-    //     } else {
-    //         $(this).hide()
-    //     }
-    // })
 
     $(" .turnRight").click(function() {
         sonuncu = $(this).parent().parent().next().length
@@ -83,33 +142,23 @@ $(document).ready(function() {
                 }
             }
         })
+
+
     })
 
-    // $(document).ready(function() {
-    //     var vid = document.getElementById("mywVideo");
-    //     // document.getElementById("mywVideo").play();
-    //     // vid.play() vid.muted = true;
-    //     // $("video").hover(function() {
-    //     //     this.controls = false;
-    //     }) $(".artGardenn").hover(function() {
-    //         $(".artGarden").css("display", "block");
-    //     }) $(".artGardenn").mouseout(function() {
-    //         $(".artGarden").css("display", "none");
-    //     }) $(".shopp").hover(function() {
-    //         $(".shop").css("display", "block");
-    //     }) $(".shopp").mouseout(function() {
-    //         $(".shop").css("display", "none");
-    //     }) $(".emalatanaa").hover(function() {
-    //         $(".emalatxana").css("display", "block");
-    //     }) $(".emalatanaa").mouseout(function() {
-    //         $(".emalatxana").css("display", "none");
-    //     }) $(".xoyski").hover(function() {
-    //         $(".xoyskii").css("display", "block");
-    //     }) $(".xoyski").mouseout(function() {
-    //         $(".xoyskii").css("display", "none");
-    //     }) $(".bizeQoshull").hover(function() {
-    //         $(".bizeQoshul").css("display", "block");
-    //     }) $(".bizeQoshull").mouseout(function() {
-    //         $(".bizeQoshul").css("display", "none");
-    //     })
+    //    POPUP ALBUM START 
+    $(".albomPhotoPopUp").click(function() {
+            pictureActive = $(this).attr("data-id");
+            console.log(pictureActive)
+            $(".albomPhotoSlide").children().each(function() {
+                slidePic = $(this).attr("data-id")
+                console.log(slidePic)
+                if (pictureActive == slidePic) {
+                    $(this).addClass("active")
+                } else {
+                    $(this).removeClass("active")
+                }
+            })
+        })
+        //    POPUP ALBUM END 
 })
