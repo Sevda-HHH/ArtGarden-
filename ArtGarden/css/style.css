@@ -1,3 +1,77 @@
+.competitionText h3,
+.competitionText p {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+.competitionImage img {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+.firstPic img.active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+.secondPic img.active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+.thirdPic img.active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 8s;
+    animation-name: fade;
+    animation-duration: 8s;
+}
+
+.fourthPic img.active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 9s;
+    animation-name: fade;
+    animation-duration: 9s;
+}
+
+.lastPic img.active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 10s;
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    60% {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    60% {
+        opacity: 1
+    }
+}
+
 @media screen and (max-width: 1025px) {
     #competitions {
         padding-bottom: 100px;
@@ -1143,7 +1217,6 @@ footer {
 footer .hello {
     height: 565px !important;
     width: 100%;
-    background-image: url("../img/mapXoyski.JPG");
 }
 
 footer ul {
@@ -1746,7 +1819,6 @@ header button:focus {
     padding-bottom: 0px !important;
     border: none;
     border-bottom: 1px solid rgba(79, 67, 54, 0.5);
-    ;
     border-radius: 0;
 }
 
@@ -1799,6 +1871,8 @@ header button:focus {
 /* 
 ESAS SEHIFE--MAIN PAGE-- START ==================================================================
  */
+
+#EsasSehife body {}
 
 #EsasSehife a {
     color: white;

@@ -117,48 +117,193 @@ $(document).ready(function() {
         })
     });
     $(" .turnLeft").click(function() {
-        if ($(this).attr("id") == "firstLeft") {
-            console.log("yess")
-            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
-            $("#lastLeft").parent().parent().addClass("d-block", 2000).removeClass("d-none", 2000)
-        } else {
+            if ($(this).attr("id") == "firstLeft") {
+                console.log("yess")
+                $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+                $("#lastLeft").parent().parent().addClass("d-block", 2000).removeClass("d-none", 2000)
+            } else {
 
-            console.log("noo")
-            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
-            $(this).parent().parent().prev().addClass("d-block", 2000).removeClass("d-none", 2000)
-        }
-        content = $(this).attr("data-id")
-        $(".competitionImage img").each(function() {
-
-            if (content == $(this).attr("data-id")) {
-                if ($(this).prev().length == 0) {
-                    console.log("yyeeee")
-                    $(this).removeClass("d-block").addClass("d-none")
-                    $("#lastSlidePhoto").removeClass("d-none").addClass("d-block")
-                } else {
-                    console.log("nouuuuu")
-                    $(this).removeClass("d-block").addClass("d-none")
-                    $(this).prev().removeClass("d-none").addClass("d-block")
-                }
+                console.log("noo")
+                $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+                $(this).parent().parent().prev().addClass("d-block", 2000).removeClass("d-none", 2000)
             }
-        })
+            content = $(this).attr("data-id")
+            $(".competitionImage img").each(function() {
 
-
-    })
-
-    //    POPUP ALBUM START 
-    $(".albomPhotoPopUp").click(function() {
-            pictureActive = $(this).attr("data-id");
-            console.log(pictureActive)
-            $(".albomPhotoSlide").children().each(function() {
-                slidePic = $(this).attr("data-id")
-                console.log(slidePic)
-                if (pictureActive == slidePic) {
-                    $(this).addClass("active")
-                } else {
-                    $(this).removeClass("active")
+                if (content == $(this).attr("data-id")) {
+                    if ($(this).prev().length == 0) {
+                        console.log("yyeeee")
+                        $(this).removeClass("d-block").addClass("d-none")
+                        $("#lastSlidePhoto").removeClass("d-none").addClass("d-block")
+                    } else {
+                        console.log("nouuuuu")
+                        $(this).removeClass("d-block").addClass("d-none")
+                        $(this).prev().removeClass("d-none").addClass("d-block")
+                    }
                 }
             })
+
+
         })
-        //    POPUP ALBUM END 
+        //PROGRAM SLIDER START    
+    function firstImgActive() {
+        $(".firstPic img").each(function() {
+            if (($(this).hasClass("active"))) {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    }
+
+    function secindImgActiv() {
+        $(".secondPic img").each(function() {
+            if (($(this).hasClass("active"))) {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    }
+
+    function thirdImgActiv() {
+        $(".thirdPic img").each(function() {
+            if (($(this).hasClass("active"))) {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    }
+
+    function fourthImgActiv() {
+        $(".fourthPic img").each(function() {
+            if (($(this).hasClass("active"))) {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    }
+
+    function lastImgActiv() {
+        $(".lastPic img").each(function() {
+            if (($(this).hasClass("active"))) {
+                $(this).show()
+            } else {
+                $(this).hide()
+            }
+        })
+    }
+    thirdImgActiv();
+    firstImgActive();
+    secindImgActiv();
+    fourthImgActiv();
+    lastImgActiv();
+    $(".carousel-control-next.programYazi").click(function() {
+        $(".firstPic img.imgFirst.active").each(function() {
+            if ($(this).next().length == 0) {
+                $(".firstPic img.imgFirst").first().attr("class", "imgFirst active")
+                $(this).attr("class", "imgFirst")
+            } else {
+                $(this).next().attr("class", "imgFirst active")
+                $(this).attr("class", "imgFirst")
+            }
+        })
+        $(".secondPic img.imfSecond.active").each(function() {
+            if ($(this).next().length == 0) {
+                $(".secondPic img.imfSecond").first().attr("class", "imfSecond active")
+                $(this).attr("class", "imfSecond")
+            } else {
+                $(this).next().attr("class", "imfSecond active")
+                $(this).attr("class", "imfSecond")
+            }
+        })
+        $(".thirdPic img.imgThird.active").each(function() {
+            if ($(this).next().length == 0) {
+                $(".thirdPic img.imgThird").first().attr("class", "imgThird active")
+                $(this).attr("class", "imgThird")
+            } else {
+                $(this).next().attr("class", "imgThird active")
+                $(this).attr("class", "imgThird")
+            }
+        })
+        $(".fourthPic img.imgFourth.active").each(function() {
+            if ($(this).next().length == 0) {
+                $(".fourthPic img.imgFourth").first().attr("class", "imgFourth active")
+                $(this).attr("class", "imgFourth")
+            } else {
+                $(this).next().attr("class", "imgFourth active")
+                $(this).attr("class", "imgFourth")
+            }
+        })
+        $(".lastPic img.imgLast.active").each(function() {
+            if ($(this).next().length == 0) {
+                $(".lastPic img.imgLast").first().attr("class", "imgLast active")
+                $(this).attr("class", "imgLast")
+            } else {
+                $(this).next().attr("class", "imgLast active")
+                $(this).attr("class", "imgLast")
+            }
+        })
+        secindImgActiv();
+        firstImgActive();
+        thirdImgActiv();
+        fourthImgActiv();
+        lastImgActiv();
+    })
+    $(".carousel-control-prev.programYazi").click(function() {
+        $(".firstPic img.imgFirst.active").each(function() {
+            if ($(this).prev().length == 0) {
+                $(".firstPic img.imgFirst").last().attr("class", "imgFirst active")
+                $(this).attr("class", "imgFirst")
+            } else {
+                $(this).prev().attr("class", "imgFirst active")
+                $(this).attr("class", "imgFirst")
+            }
+        })
+        $(".secondPic img.imfSecond.active").each(function() {
+            if ($(this).prev().length == 0) {
+                $(".secondPic img.imfSecond").last().attr("class", "imfSecond active")
+                $(this).attr("class", "imfSecond")
+            } else {
+                $(this).prev().attr("class", "imfSecond active")
+                $(this).attr("class", "imfSecond")
+            }
+        })
+        $(".thirdPic img.imgThird.active").each(function() {
+            if ($(this).prev().length == 0) {
+                $(".thirdPic img.imgThird").last().attr("class", "imgThird active")
+                $(this).attr("class", "imgThird")
+            } else {
+                $(this).prev().attr("class", "imgThird active")
+                $(this).attr("class", "imgThird")
+            }
+        })
+        $(".fourthPic img.imgFourth.active").each(function() {
+            if ($(this).prev().length == 0) {
+                $(".fourthPic img.imgFourth").last().attr("class", "imgFourth active")
+                $(this).attr("class", "imgFourth")
+            } else {
+                $(this).prev().attr("class", "imgFourth active")
+                $(this).attr("class", "imgFourth")
+            }
+        })
+        $(".lastPic img.imgLast.active").each(function() {
+            if ($(this).prev().length == 0) {
+                $(".lastPic img.imgLast").last().attr("class", "imgLast active")
+                $(this).attr("class", "imgLast")
+            } else {
+                $(this).prev().attr("class", "imgLast active")
+                $(this).attr("class", "imgLast")
+            }
+        })
+        secindImgActiv();
+        firstImgActive();
+        thirdImgActiv();
+        fourthImgActiv();
+        lastImgActiv();
+    })
+
+    //PROGRAM SLIDER END
 })
