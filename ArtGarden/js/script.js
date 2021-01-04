@@ -95,16 +95,14 @@ $(document).ready(function() {
     $(" .turnRight").click(function() {
         sonuncu = $(this).parent().parent().next().length
         if (sonuncu == 0) {
-            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none", 2000)
             $("#firstRught").parent().parent().addClass("d-block", 2000).removeClass("d-none", 2000)
-
         } else {
-            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none", 2000)
             $(this).parent().parent().next().addClass("d-block", 2000).removeClass("d-none", 2000)
         }
         content = $(this).attr("data-id")
         $(".competitionImage img").each(function() {
-
             if (content == $(this).attr("data-id")) {
                 if ($(this).next().length == 0) {
                     $(this).removeClass("d-block").addClass("d-none")
@@ -117,35 +115,51 @@ $(document).ready(function() {
         })
     });
     $(" .turnLeft").click(function() {
-            if ($(this).attr("id") == "firstLeft") {
-                console.log("yess")
-                $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
-                $("#lastLeft").parent().parent().addClass("d-block", 2000).removeClass("d-none", 2000)
-            } else {
+        if ($(this).attr("id") == "firstLeft") {
+            console.log("yess")
+            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+            $("#lastLeft").parent().parent().addClass("d-block", 2000).removeClass("d-none", 2000)
+        } else {
 
-                console.log("noo")
-                $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
-                $(this).parent().parent().prev().addClass("d-block", 2000).removeClass("d-none", 2000)
+            console.log("noo")
+            $(this).parent().parent().removeClass("d-block", 2000).addClass("d-none")
+            $(this).parent().parent().prev().addClass("d-block", 2000).removeClass("d-none", 2000)
+        }
+        content = $(this).attr("data-id")
+        $(".competitionImage img").each(function() {
+
+            if (content == $(this).attr("data-id")) {
+                if ($(this).prev().length == 0) {
+                    $(this).removeClass("d-block").addClass("d-none")
+                    $("#lastSlidePhoto").removeClass("d-none").addClass("d-block")
+                } else {
+                    $(this).removeClass("d-block").addClass("d-none")
+                    $(this).prev().removeClass("d-none").addClass("d-block")
+                }
             }
-            content = $(this).attr("data-id")
-            $(".competitionImage img").each(function() {
+        })
 
-                if (content == $(this).attr("data-id")) {
-                    if ($(this).prev().length == 0) {
-                        console.log("yyeeee")
-                        $(this).removeClass("d-block").addClass("d-none")
-                        $("#lastSlidePhoto").removeClass("d-none").addClass("d-block")
-                    } else {
-                        console.log("nouuuuu")
-                        $(this).removeClass("d-block").addClass("d-none")
-                        $(this).prev().removeClass("d-none").addClass("d-block")
-                    }
+
+    })
+
+    //    POPUP ALBUM START 
+    $(".albomPhotoPopUp").click(function() {
+            pictureActive = $(this).attr("data-id");
+            console.log(pictureActive)
+            $(".albomPhotoSlide").children().each(function() {
+                slidePic = $(this).attr("data-id")
+                console.log(slidePic)
+                if (pictureActive == slidePic) {
+                    $(this).addClass("active")
+                } else {
+                    $(this).removeClass("active")
                 }
             })
-
-
         })
-        //PROGRAM SLIDER START    
+        //    POPUP ALBUM END 
+
+
+    //PROGRAM SLIDER START    
     function firstImgActive() {
         $(".firstPic img").each(function() {
             if (($(this).hasClass("active"))) {
@@ -306,4 +320,10 @@ $(document).ready(function() {
     })
 
     //PROGRAM SLIDER END
+
+    // IMAGE UPLOAD ICON START 
+    $(".image-upload img").click(function() {
+            $("#file-inputt").trigger("click");
+        })
+        // IMAGE UPLOAD ICON END 
 })

@@ -81,6 +81,7 @@
         height: 100% !important;
     }
     .competitionText p {
+        height: 311px !important;
         font-size: 18px !important;
         margin-bottom: 0 !important;
         line-height: 15px !important;
@@ -245,6 +246,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .modal-xl {
+        max-width: 100% !important;
+    }
     #shoppMain {
         display: none;
     }
@@ -283,6 +287,7 @@
         font-size: 13px !important;
         margin-bottom: 0 !important;
         line-height: 14px !important;
+        height: 227px !important;
     }
     #exampleModal .modal-body img {
         width: 75px !important;
@@ -414,6 +419,21 @@
 }
 
 @media screen and (max-width: 630px) {
+    .competitionText p {
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+        line-height: 19px !important;
+        height: 241px !important;
+    }
+    .sliderTurn {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .sliderTurn i {
+        font-size: 23px !important;
+        left: 34% !important;
+        top: 23.5% !important;
+    }
     #mainStart #girishPhoto {
         display: block !important;
     }
@@ -563,6 +583,15 @@
 }
 
 @media screen and (max-width: 480px) {
+    .sliderTurn {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .sliderTurn i {
+        font-size: 22px !important;
+        left: 35% !important;
+        top: 25% !important;
+    }
     .competitionText {
         height: 100% !important;
     }
@@ -686,6 +715,7 @@
         height: 100% !important;
     }
     .competitionText p {
+        height: 318px !important;
         margin-bottom: 0 !important;
         font-size: 13px !important;
         line-height: 17px !important;
@@ -1302,7 +1332,7 @@ footer h1 {
 }
 
 .webLinks li {
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 .webLinks li div {
@@ -1585,8 +1615,9 @@ header button:focus {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
     color: #4F4336;
+    height: 284px;
+    overflow: hidden;
 }
 
 .competitionImage img {
@@ -1622,9 +1653,9 @@ header button:focus {
 
 .sliderTurn i {
     position: absolute;
-    font-size: 30px;
-    left: 31%;
-    top: 21%;
+    font-size: 25px;
+    left: 34%;
+    top: 25%;
 }
 
 .turnRight {
@@ -2145,6 +2176,7 @@ ESAS SEHIFE--MAIN PAGE-- START =================================================
 #meqsedimizModal .modal-footer {
     padding-left: 80px;
     border: 1px solid #FF5A3C;
+    padding-bottom: 21px;
 }
 
 #meqsedimizModal .webLinks i {
